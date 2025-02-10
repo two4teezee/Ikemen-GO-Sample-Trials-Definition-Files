@@ -1,0 +1,232 @@
+[TrialDef, Kubi Kudaki]
+trial.dummymode = crouch
+
+trialstep.1.text = Kubi Kudaki
+trialstep.1.glyphs = _F^MP
+trialstep.1.stateno = 215
+trialstep.1.hitcount = 2
+
+[TrialDef, Hiji Otoshi]
+trialstep.1.text = Hiji Otoshi
+trialstep.1.glyphs = _AIR_D^MP
+trialstep.1.stateno = 615
+
+[TrialDef, Kamaitachi]
+trialstep.1.text = Kamaitachi
+trialstep.1.glyphs = _DF^HK
+trialstep.1.stateno = 255
+trialstep.1.hitcount = 2
+
+[TrialDef, Target Combo 1]
+trialstep.1.text = Target Combo 1
+trialstep.1.glyphs = ^MP_-^HP
+trialstep.1.stateno = 211, 225
+
+[TrialDef, Target Combo 2]
+trialstep.1.text = Target Combo 2
+trialstep.1.glyphs = ^MK_-^MK_-^MK
+trialstep.1.stateno = 241, 245, 246
+
+[TrialDef, Bushin Gokusa Ken 1]
+trialstep.1.text = Bushin Gokusa Ken 1
+trialstep.1.glyphs = ^LP_-^MP_-^HP_-^HK
+trialstep.1.stateno = 200, 290, 291, 292
+
+[TrialDef, Bushin Gokusa Ken 2]
+trialstep.1.text = Bushin Gokusa Ken 1
+trialstep.1.glyphs = ^LP_-^MP_-^HP_-_D^HP
+trialstep.1.stateno = 200, 290, 291, 310
+trialstep.1.isthrow = false, false, false, true
+
+[TrialDef, Houzantou]
+trialstep.1.text = Houzantou
+trialstep.1.glyphs = _QCB^P
+trialstep.1.stateno = 1000
+
+[TrialDef, Bushin Senpuu Kyaku]
+trialstep.1.text = Bushin Senpuu Kyaku
+trialstep.1.glyphs = _QCB^K
+trialstep.1.stateno = 1200
+
+[TrialDef, Izuna no Hiji Otoshi]
+trialstep.1.text = Izuna no Hiji Otoshi
+trialstep.1.glyphs = _QCF^P_-^P
+trialstep.1.stateno = 1305
+
+[TrialDef, Izuna no Hiji Otoshi]
+trialstep.1.text = Izuna no Hiji Otoshi
+trialstep.1.glyphs = _QCF^P_)^P
+trialstep.1.stateno = 1320
+trialstep.1.isthrow = true
+
+[TrialDef, Hayagake > Kage Sukui]
+trialstep.1.text = Hayagake > Kage Sukui
+trialstep.1.glyphs = _QCF^K_.^LK
+trialstep.1.stateno = 1110
+
+[TrialDef, Hayagake > Seichuukari]
+trialstep.1.text = Hayagake > Seichuukari
+trialstep.1.glyphs = _QCF^K_.^MK
+trialstep.1.stateno = 1120
+
+[TrialDef, Hayagake > Kubikari]
+trial.dummymode = crouch
+
+trialstep.1.text = Hayagake > Kubikari
+trialstep.1.glyphs = _QCF^K_.^HK
+trialstep.1.stateno = 1115
+
+[TrialDef, Bushin Gourai Kyaku]
+trialstep.1.text = Bushin Gourai Kyaku
+trialstep.1.glyphs = _QCF_QCF^K
+trialstep.1.stateno = 3000
+
+[TrialDef, Bushin Hassou Ken]
+trialstep.1.text = Bushin Hassou Ken
+trialstep.1.glyphs = _QCF_QCF^P
+trialstep.1.stateno = 3050
+
+[TrialDef, Kaiten Izuna Otoshi]
+trial.dummymode = jump
+
+trialstep.1.text = Kaiten Izuna Otoshi
+trialstep.1.glyphs = _AIR_QCB_QCB^P
+trialstep.1.stateno = 3210
+trialstep.1.isthrow = true
+
+[TrialDef, Tessinhou]
+trialstep.1.text = Bushin Hassou Ken
+trialstep.1.glyphs = _QCF_QCF^K^K_.^K
+trialstep.1.stateno = 3110
+
+[TrialDef, Bushin Musou Renge]
+trial.guardmode = auto
+
+trialstep.1.text = Bushin Musou Renge
+trialstep.1.glyphs = _QCB_QCB^P^P
+trialstep.1.stateno = 4010
+trialstep.1.isthrow = true
+
+[TrialDef, Three Hit Combo]
+trialstep.1.text = Jumping Hard Punch
+trialstep.1.glyphs = _AIR^HP
+trialstep.1.stateno = 620
+
+trialstep.2.text = Standing Hard Punch
+trialstep.2.glyphs = ^HP
+trialstep.2.stateno = 221
+
+trialstep.3.text = Medium Houzantou
+trialstep.3.glyphs = _QCB^MP
+trialstep.3.stateno = 1000
+trialstep.3.animno = 1001
+
+[TrialDef, Normal Izuna Drop Combo]
+trialstep.1.text = Izuna no Hiji Otoshi
+trialstep.1.glyphs = _QCF^P_)^P
+trialstep.1.stateno = 1321
+trialstep.1.isthrow = true
+; trialstep.1.validfortickcount = 20
+
+trialstep.2.text = Bushin Hassou Ken
+trialstep.2.glyphs = _QCF_QCF^P
+trialstep.2.stateno = 3050
+
+[TrialDef, Hiji Otoshi Combo]
+trialstep.1.text = Hiji Otoshi
+trialstep.1.glyphs = _AIR_D^MP
+trialstep.1.stateno = 615
+
+trialstep.2.text = Standing Light Punch
+trialstep.2.glyphs = ^LP
+trialstep.2.stateno = 200
+
+trialstep.3.text = Bushin Gokusa Ken 2
+trialstep.3.glyphs = ^LP_-^MP_-^HP_-_D^HP
+trialstep.3.stateno = 200, 290, 291, 310
+trialstep.3.isthrow = false, false, false, true
+
+trialstep.4.text = EX Bushin Senpuu Kyaku
+trialstep.4.glyphs = _QCB^K^K
+trialstep.4.stateno = 1210
+
+[TrialDef, Double Wheel Kick Combo]
+trialstep.1.text = Neutral Jump Hard Kick
+trialstep.1.glyphs = _AIR^HK
+trialstep.1.stateno = 651
+trialstep.1.hitcount = 2
+
+trialstep.2.text = Kamaitachi
+trialstep.2.glyphs = _DF^HK
+trialstep.2.stateno = 255
+trialstep.2.hitcount = 2
+
+trialstep.3.text = Bushin Hassou Ken
+trialstep.3.glyphs = _QCF_QCF^P
+trialstep.3.stateno = 3050
+
+[TrialDef, Airborne Super Cancel Combo]
+trialstep.1.text = Jumping Hard Kick
+trialstep.1.glyphs = _AIR^HK
+trialstep.1.stateno = 650
+
+trialstep.2.text = Target Combo 1
+trialstep.2.glyphs = ^MP_-^HP
+trialstep.2.stateno = 211, 225
+
+trialstep.3.text = Hayagake > Seichuukari
+trialstep.3.glyphs = _QCF^K_.^MK
+trialstep.3.stateno = 1120
+
+trialstep.4.text = Hard Bushin Senpuu Kyaku
+trialstep.4.glyphs = _QCB^HK
+trialstep.4.stateno = 1200
+trialstep.4.animno = 1202
+
+trialstep.5.text = Kaiten Izuna Otoshi
+trialstep.5.glyphs = _AIR_QCB_QCB^P
+trialstep.5.stateno = 3210
+trialstep.5.isthrow = true
+
+[TrialDef, Corner Carry Custom Combo]
+trialstep.1.text = Custom Combo Activation
+trialstep.1.glyphs = ^HP_+^HK
+trialstep.1.stateno = 760
+trialstep.1.hitcount = 0
+trialstep.1.validfortickcount = 300
+
+trialstep.2.text = Crouching Roundhouse
+trialstep.2.glyphs = _D^HK
+trialstep.2.stateno = 450
+
+trialstep.3.text = Weak Houzantou
+trialstep.3.glyphs = _QCB^LP
+trialstep.3.stateno = 1000
+trialstep.3.animno = 1000
+
+trialstep.4.text = Hayagake > Seichuukari
+trialstep.4.glyphs = _QCF^K_.^MK
+trialstep.4.stateno = 1120
+
+trialstep.5.text = Crouching Hard Punch
+trialstep.5.glyphs = _D^HP
+trialstep.5.stateno = 420
+
+trialstep.6.text = Hard Houzantou
+trialstep.6.glyphs = _QCB^HP
+trialstep.6.stateno = 1000
+trialstep.6.animno = 1002
+
+trialstep.7.text = Hayagake > Seichuukari
+trialstep.7.glyphs = _QCF^K_.^MK
+trialstep.7.stateno = 1120
+
+trialstep.8.text = Hard Bushin Senpuu Kyaku
+trialstep.8.glyphs = _QCB^HK
+trialstep.8.stateno = 1200
+trialstep.8.animno = 1202
+
+trialstep.9.text = Kaiten Izuna Otoshi
+trialstep.9.glyphs = _AIR_QCB_QCB^P
+trialstep.9.stateno = 3210
+trialstep.9.isthrow = true
