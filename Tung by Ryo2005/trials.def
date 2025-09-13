@@ -1,0 +1,75 @@
+[TrialDef, Kourin Satsu]
+trialstep.1.text 		= Kourin Satsu
+trialstep.1.glyphs 	    = _F_+^LP
+trialstep.1.stateno 	= 300
+
+[TrialDef, Chain Combo 1]
+trialstep.1.text 		= Close Standing Light Kick
+trialstep.1.glyphs 	    = ^LK
+trialstep.1.stateno 	= 225
+trialstep.2.text 		= Standing Light Kick
+trialstep.2.glyphs 	    = ^LK
+trialstep.2.stateno 	= 310
+trialstep.3.text 		= Standing Heavy Punch
+trialstep.3.glyphs 	    = ^HP
+trialstep.3.stateno 	= 315
+
+[TrialDef, Chain Combo 2]
+trialstep.1.text 		= Crouching Light Kick
+trialstep.1.glyphs 	    = _D^LK
+trialstep.1.stateno 	= 420
+trialstep.2.text 		= Crouching Light Kick
+trialstep.2.glyphs 	    = _D^LK
+trialstep.2.stateno 	= 510
+trialstep.3.text 		= Crouching Heavy Punch
+trialstep.3.glyphs 	    = _D^HP
+trialstep.3.stateno 	= 515
+
+[TrialDef, Shou Ha]
+trialstep.1.text 		= Shou Ha
+trialstep.1.glyphs 	    = ~B_F_+^LP
+trialstep.1.stateno 	= 1000
+
+[TrialDef, Dai Shou Ha]
+trialstep.1.text 		= Dai Shou Ha
+trialstep.1.glyphs 	    = ~B_F_+^HP
+trialstep.1.stateno 	= 1050
+
+[TrialDef, Sen Shippo]
+trialstep.1.text 		= Sen Shippo
+trialstep.1.glyphs 	    = _QCB^P
+trialstep.1.stateno 	= 1100|1150
+
+
+[TrialDef, Near TOD Corner Combo]
+trialstep.1.text 		= Jumping Heavy Kick
+trialstep.1.glyphs 	    = _AIR^HK
+trialstep.1.stateno 	= 635
+
+trialstep.2.text 		= Standing Light Kick Chain
+trialstep.2.glyphs 	    = ^LK_-^LK_-^HP
+trialstep.2.stateno 	= 225, 310, 315
+
+trialstep.3.text 		= Kourin Satsu Chain
+trialstep.3.glyphs 	    = _F_+^LP
+trialstep.3.stateno 	= 305
+
+trialstep.4.text 		= Rage Combo Activation
+trialstep.4.glyphs 	    = ^HP_+^HK
+trialstep.4.stateno 	= 3200
+
+trialstep.5.text 		= Rage Combo - Ground
+trialstep.5.glyphs 	    = ^LP_-^HP_-^HK_-^LK_-^HP
+trialstep.5.stateno 	= 3020, 3030, 3040, 3050, 3060
+
+trialstep.6.text 		= Light Ressen Kyaku
+trialstep.6.glyphs 	    = _DSF^LK
+trialstep.6.stateno 	= 1200
+
+trialstep.7.text 		= Heavy Ressen Kyaku
+trialstep.7.glyphs 	    = _DSF^HK
+trialstep.7.stateno 	= 1250
+
+trialstep.8.text 		= Maximum Dai Geki Hou
+trialstep.8.glyphs 	    = _QCF_QCF_+^HP
+trialstep.8.stateno 	= 2300
