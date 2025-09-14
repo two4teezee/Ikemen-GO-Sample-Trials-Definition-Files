@@ -29,47 +29,111 @@ trialstep.3.stateno 	= 515
 trialstep.1.text 		= Shou Ha
 trialstep.1.glyphs 	    = ~B_F_+^LP
 trialstep.1.stateno 	= 1000
+trialstep.1.isproj      = true
 
 [TrialDef, Dai Shou Ha]
 trialstep.1.text 		= Dai Shou Ha
 trialstep.1.glyphs 	    = ~B_F_+^HP
 trialstep.1.stateno 	= 1050
+trialstep.1.isproj      = true
 
 [TrialDef, Sen Shippo]
 trialstep.1.text 		= Sen Shippo
 trialstep.1.glyphs 	    = _QCB^P
 trialstep.1.stateno 	= 1100|1150
 
+[TrialDef, Geki Hou]
+trialstep.1.text 		= Geki Hou
+trialstep.1.glyphs 	    = _QCF^Z
+trialstep.1.stateno 	= 1300
 
-[TrialDef, Near TOD Corner Combo]
+[TrialDef, Raimeikyaku]
+trialstep.1.text 		= Raimeikyaku
+trialstep.1.glyphs 	    = _AIR_QCB^HK
+trialstep.1.stateno 	= 1400
+
+[TrialDef, Juujiken]
+trialstep.1.text 		= Juujiken
+trialstep.1.glyphs 	    = _AIR_QCB^HP
+trialstep.1.stateno 	= 1450
+
+[TrialDef, Senpuuken]
+trialstep.1.text 		= Senpuuken
+trialstep.1.glyphs 	    = _AIR_QCF^P
+trialstep.1.stateno 	= 1500|1550
+
+[TrialDef, Far Heavy Kick Opener]
+trialstep.1.text 		= Far Standing Heavy Kick
+trialstep.1.glyphs 	    = ^HK
+trialstep.1.stateno 	= 230
+
+trialstep.2.text 		= Crouching Light Kick Chain
+trialstep.2.glyphs 	    = _D^LK^LK^HP
+trialstep.2.stateno 	= 420, 510, 515
+
+[TrialDef, Running Heavy Kick Combo]
+trialstep.1.text 		= Running Heavy Kick
+trialstep.1.glyphs 	    = _XFF^HK
+trialstep.1.stateno 	= 260
+
+trialstep.2.text 		= Running Ressen
+trialstep.2.glyphs 	    = _DSF^HK
+trialstep.2.stateno 	= 1700
+
+[TrialDef, Sen Shippo Corner Punish Combo]
+trialstep.1.text 		= Sen Shippo
+trialstep.1.glyphs 	    = _QCB^P
+trialstep.1.stateno 	= 1100|1150
+
+trialstep.2.text 		= Far Standing Heavy Punch
+trialstep.2.glyphs 	    = ^HP
+trialstep.2.stateno 	= 210
+
+trialstep.3.text 		= Kourin Satsu
+trialstep.3.glyphs 	    = _F_+^LP
+trialstep.3.stateno 	= 300
+
+trialstep.10.text 		= Maximum Senpuu Gouken
+trialstep.10.glyphs 	= _F_HCF_+^HP
+trialstep.10.stateno 	= 2200
+
+[TrialDef, TOD Corner Combo]
 trialstep.1.text 		= Jumping Heavy Kick
 trialstep.1.glyphs 	    = _AIR^HK
 trialstep.1.stateno 	= 635
 
-trialstep.2.text 		= Standing Light Kick Chain
-trialstep.2.glyphs 	    = ^LK_-^LK_-^HP
-trialstep.2.stateno 	= 225, 310, 315
+trialstep.2.text 		= Crouching Light Punch
+trialstep.2.glyphs 	    = _D^LP
+trialstep.2.stateno 	= 400
 
-trialstep.3.text 		= Kourin Satsu Chain
-trialstep.3.glyphs 	    = _F_+^LP
-trialstep.3.stateno 	= 305
+trialstep.3.text 		= Standing Light Kick Chain
+trialstep.3.glyphs 	    = ^LK^LK^HP
+trialstep.3.stateno 	= 225, 310, 315
 
-trialstep.4.text 		= Rage Combo Activation
-trialstep.4.glyphs 	    = ^HP_+^HK
-trialstep.4.stateno 	= 3200
+trialstep.4.text 		= Kourin Satsu Chain
+trialstep.4.glyphs 	    = _F_+^LP
+trialstep.4.stateno 	= 305
 
-trialstep.5.text 		= Rage Combo - Ground
-trialstep.5.glyphs 	    = ^LP_-^HP_-^HK_-^LK_-^HP
-trialstep.5.stateno 	= 3020, 3030, 3040, 3050, 3060
+trialstep.5.text 		= Rage Combo Activation
+trialstep.5.glyphs 	    = ^HP_+^HK
+trialstep.5.stateno 	= 3010
 
-trialstep.6.text 		= Light Ressen Kyaku
-trialstep.6.glyphs 	    = _DSF^LK
-trialstep.6.stateno 	= 1200
+trialstep.6.text 		= Rage Combo - Ground
+trialstep.6.glyphs 	    = ^LP^HP^HK^LK^HP
+trialstep.6.stateno 	= 3020, 3030, 3040, 3050, 3060
 
 trialstep.7.text 		= Heavy Ressen Kyaku
 trialstep.7.glyphs 	    = _DSF^HK
 trialstep.7.stateno 	= 1250
 
-trialstep.8.text 		= Maximum Dai Geki Hou
-trialstep.8.glyphs 	    = _QCF_QCF_+^HP
-trialstep.8.stateno 	= 2300
+trialstep.8.text 		= Close Standing Heavy Punch
+trialstep.8.glyphs 	    = ^HP
+trialstep.8.stateno 	= 215
+
+trialstep.9.text 		= Heavy Ressen Kyaku
+trialstep.9.glyphs 	    = _DSF^HK
+trialstep.9.stateno 	= 1250
+
+trialstep.10.text 		= Maximum Dai Geki Hou
+trialstep.10.glyphs 	= _QCF_QCF_+^HP
+trialstep.10.stateno 	= 2300
