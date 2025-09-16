@@ -71,6 +71,17 @@ trialstep.2.text 		= Crouching Light Kick Chain
 trialstep.2.glyphs 	    = _D^LK^LK^HP
 trialstep.2.stateno 	= 420, 510, 515
 
+[TrialDef, Kourin Satsu Air Catch Combo]
+trial.dummymode			= jump
+
+trialstep.1.text 		= Kourin Satsu
+trialstep.1.glyphs 	    = _F_+^LP
+trialstep.1.stateno 	= 300
+
+trialstep.2.text 		= Sen Shippo
+trialstep.2.glyphs 	    = _QCB^P
+trialstep.2.stateno 	= 1100|1150
+
 [TrialDef, Running Heavy Kick Combo]
 trialstep.1.text 		= Running Heavy Kick
 trialstep.1.glyphs 	    = _XFF^HK
@@ -79,6 +90,31 @@ trialstep.1.stateno 	= 260
 trialstep.2.text 		= Running Ressen
 trialstep.2.glyphs 	    = _DSF^HK
 trialstep.2.stateno 	= 1700
+
+[TrialDef, Far Heavy Kick Mid-Screen Rage Combo]
+trialstep.1.text 		= Far Standing Heavy Kick
+trialstep.1.glyphs 	    = ^HK
+trialstep.1.stateno 	= 230
+
+trialstep.2.text 		= Crouching Light Kicks
+trialstep.2.glyphs 	    = _D^LK^LK
+trialstep.2.stateno 	= 420, 510
+
+trialstep.3.text 		= Ukouryuu
+trialstep.3.glyphs 	    = _DF^HP
+trialstep.3.stateno 	= 515
+
+trialstep.4.text 		= Rage Combo Activation
+trialstep.4.glyphs 	    = ^HP_+^HK
+trialstep.4.stateno 	= 3010
+
+trialstep.5.text 		= Rage Combo - Ground
+trialstep.5.glyphs 	    = ^LP^HP^HK^LK^HP
+trialstep.5.stateno 	= 3020, 3030, 3040, 3050, 3060
+
+trialstep.6.text 		= Sen Shippo
+trialstep.6.glyphs 	    = _QCB^P
+trialstep.6.stateno 	= 1100|1150
 
 [TrialDef, Sen Shippo Corner Punish Combo]
 trialstep.1.text 		= Sen Shippo
