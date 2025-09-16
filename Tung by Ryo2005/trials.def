@@ -102,7 +102,7 @@ trialstep.2.stateno 	= 420, 510
 
 trialstep.3.text 		= Ukouryuu
 trialstep.3.glyphs 	    = _DF^HP
-trialstep.3.stateno 	= 515
+trialstep.3.stateno 	= 505
 
 trialstep.4.text 		= Rage Combo Activation
 trialstep.4.glyphs 	    = ^HP_+^HK
@@ -127,11 +127,11 @@ trialstep.2.stateno 	= 210
 
 trialstep.3.text 		= Kourin Satsu
 trialstep.3.glyphs 	    = _F_+^LP
-trialstep.3.stateno 	= 300
+trialstep.3.stateno 	= 305
 
-trialstep.10.text 		= Maximum Senpuu Gouken
-trialstep.10.glyphs 	= _F_HCF_+^HP
-trialstep.10.stateno 	= 2200
+trialstep.4.text 		= Maximum Senpuu Gouken
+trialstep.4.glyphs 	= _F_HCF_+^HP
+trialstep.4.stateno 	= 2200
 
 [TrialDef, TOD Corner Combo]
 trialstep.1.text 		= Jumping Heavy Kick
