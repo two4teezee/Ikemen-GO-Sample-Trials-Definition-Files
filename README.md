@@ -4,13 +4,16 @@ These trials definition files are compatible with my [Universal Trials Mode Ikem
 I'll periodically update this repo with new trials definition files.
 
 Each folder contains a `trials.def`.
-You'll have to modify the character's main `.def` file to include `trials  = trials.def` under the `[Files]` section, per the .
-These sample trials definition files were not created with the character creators' approval, and are simply offered up as tutorials. 
+You'll have to modify the character's main `.def` file to include `trials  = trials.def` under the `[Files]` section, per the [Trials Mode Wiki](https://github.com/two4teezee/Ikemen-GO-Trials-Mode/wiki/Installation).
+These sample trials definition files were not created with the character creators' approval, and are simply offered up as tutorials and tributes to characters I really enjoy. 
 In the event the character creator generates a trials file for their creation, I'll remove it from here.
 Otherwise, if you want to download these amazing characters and use the trials definition files I've created, please see links below.
 
 <!-- > [cvsryu by Warusaki3](https://www.mediafire.com/folder/j8srioxidnmi6/CVS) | [Video of trials]()<br>
 > Inspiration: created for tutorial purposes -->
+
+> [Tung Fu Rue by Ryo2005](https://mugenskyhigh.moo.jp/) | [Video of trials](https://youtu.be/UZulPQ7Xf7A)<br>
+> Inspiration: Ryo2005!
 
 > [Gouken by KarmaCharmeleon](https://www.mediafire.com/folder/f4qxixm5h39cu/Characters) | [Video of trials](https://youtu.be/oTLTCY6_ktE)<br>
 > Inspiration: SSF4 trials mode
