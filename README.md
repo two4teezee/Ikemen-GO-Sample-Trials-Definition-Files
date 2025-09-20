@@ -13,7 +13,7 @@ Otherwise, if you want to download these amazing characters and use the trials d
 > Inspiration: created for tutorial purposes -->
 
 > [Tung Fu Rue by Ryo2005](https://mugenskyhigh.moo.jp/) | [Video of trials](https://youtu.be/UZulPQ7Xf7A)<br>
-> Inspiration: Ryo2005!
+> Inspiration: Ryo2005! Note: requires Trials Mode 0.99.4 or later.
 
 > [Gouken by KarmaCharmeleon](https://www.mediafire.com/folder/f4qxixm5h39cu/Characters) | [Video of trials](https://youtu.be/oTLTCY6_ktE)<br>
 > Inspiration: SSF4 trials mode
@@ -22,4 +22,4 @@ Otherwise, if you want to download these amazing characters and use the trials d
 > Inspiration: PotS!
 
 > [kfmz by Elecbyte](https://github.com/ikemen-engine/Ikemen_GO-Elecbyte-Screenpack) | [Video of trials](https://github.com/user-attachments/assets/7ec36b29-8057-4d67-8519-562d9e75330f) <br>
-> Inspiration: created for tutorial purposes
+> Inspiration: created for tutorial purposes. Note: requires Trials Mode 0.99.4 or later.
