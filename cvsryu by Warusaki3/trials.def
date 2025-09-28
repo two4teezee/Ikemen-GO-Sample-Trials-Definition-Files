@@ -1,0 +1,272 @@
+; var(12): Normal Ryu, Evil Ryu (0, 10)
+; var(20): Groove (0 = C, 1 = A, 2 = P, 3 = S, 4 = N, 5 = K, 6 = EX)
+
+[TrialDef, Hadoken]
+trialstep.1.text = Hadoken
+trialstep.1.glyphs = _QCF^P
+trialstep.1.stateno = 7000
+trialstep.1.isproj = true
+
+[TrialDef, Shakunetsu Hadoken]
+trialstep.1.text = Shakunetsu Hadoken
+trialstep.1.glyphs = _HCF^P
+trialstep.1.stateno = 7100
+trialstep.1.isproj = true
+
+[TrialDef, Tatsumaki Senpuu Kyaku]
+trialstep.1.text = Tatsumaki Senpuu Kyaku
+trialstep.1.glyphs = _QCB^K
+trialstep.1.stateno = 1200
+
+[TrialDef, Shoryuken]
+trialstep.1.text = Shoryuken
+trialstep.1.glyphs = _DSF^P
+trialstep.1.stateno = 1100
+
+[TrialDef, Ashura Senku]
+trial.showforvarvalpairs = 12, 10
+
+trialstep.1.text = Ashura Senku
+trialstep.1.glyphs = _DSF^P^P
+trialstep.1.stateno = 1401
+trialstep.1.hitcount = 0
+
+[TrialDef, Shinkuu Hadoken] 
+trial.showforvarvalpairs = 12, 0
+
+trialstep.1.text = Shinkuu Hadoken
+trialstep.1.glyphs = _QCF_QCF^P
+trialstep.1.stateno = 7300
+trialstep.1.isproj = true
+
+[TrialDef, Shinkuu Tatsumaki Senpukyaku] 
+trial.showforvarvalpairs = 12, 0
+
+trialstep.1.text = Shinkuu Tatsumaki Senpukyaku
+trialstep.1.glyphs = _QCB_QCB^K
+trialstep.1.stateno = 3100
+
+[TrialDef, Shinkuu Hadoken] 
+trial.showforvarvalpairs = 12, 10
+
+trialstep.1.text = Shinkuu Hadoken
+trialstep.1.glyphs = _HCB_HCB^P
+trialstep.1.stateno = 7300
+trialstep.1.isproj = true
+
+[TrialDef, Metsu Goshoryu] 
+trial.showforvarvalpairs = 12, 10
+
+trialstep.1.text = Metsu Goshoryu
+trialstep.1.glyphs = _QCF_QCF^P
+trialstep.1.stateno = 3100
+
+[TrialDef, Denjin Hadoken] 
+trial.showforvarvalpairs = 12, 10, 20, 0|2|4|5|6
+
+trialstep.1.text = Denjin Hadoken
+trialstep.1.glyphs = _HCB_HCB^K
+trialstep.1.stateno = 7400
+trialstep.1.isproj = true
+
+[TrialDef, Shun Goku Satsu] 
+trial.showforvarvalpairs = 12, 10, 20, 0|2|4|5|6
+
+trialstep.1.text = Shun Goku Satsu
+trialstep.1.glyphs = ^LP^LP_F^LK^HP
+trialstep.1.stateno = 3301
+trialstep.1.isthrow = true
+
+[TrialDef, Close Shin Shoryuken]
+trial.showforvarvalpairs = 12, 0, 20, 0|2|4|5|6
+
+trialstep.1.text = Shin Shoryuken (Close)
+trialstep.1.glyphs = _QCF_QCF^K
+trialstep.1.stateno = 3500, 3501
+trialstep.1.hitcount = 1, 3
+
+[TrialDef, Evil Ryu Target Combo] 
+trial.showforvarvalpairs = 12, 10
+
+trialstep.1.text = Evil Ryu Target Combo
+trialstep.1.glyphs = ^MP_-^HP
+trialstep.1.stateno = 211, 330
+
+[TrialDef, Crouching Links Into Hadoken] 
+trialstep.1.text = Crouching Light Kick
+trialstep.1.glyphs = _D^LK
+trialstep.1.stateno = 430
+
+trialstep.2.text = Crouching Light Punch
+trialstep.2.glyphs = _D^LP
+trialstep.2.stateno = 400
+
+trialstep.3.text = Crouching Medium Kick
+trialstep.3.glyphs = _D^MK
+trialstep.3.stateno = 440
+
+trialstep.4.text = Hadoken
+trialstep.4.glyphs = _QCF^P
+trialstep.4.stateno = 7000
+trialstep.4.isproj = true
+
+[TrialDef, Crouching Light to Heavy Punch Link] 
+trialstep.1.text = Crouching Light Punch
+trialstep.1.glyphs = _D^LP
+trialstep.1.stateno = 400
+
+trialstep.2.text = Crouching Heavy Punch
+trialstep.2.glyphs = _D^HP
+trialstep.2.stateno = 420
+
+trialstep.3.text = Hadoken
+trialstep.3.glyphs = _QCF^P
+trialstep.3.stateno = 7000
+trialstep.3.isproj = true
+
+[TrialDef, Crouching LK Confirm]
+trialstep.1.text = Crouching Low Kick
+trialstep.1.glyphs = _D^LK
+trialstep.1.stateno = 430
+
+trialstep.2.text = Crouching Low Kick
+trialstep.2.glyphs = _D^LK
+trialstep.2.stateno = 430
+
+trialstep.3.text = Crouching Low Kick
+trialstep.3.glyphs = _D^LK
+trialstep.3.stateno = 430
+
+trialstep.4.text = Heavy Tatsumaki Senpuu Kyaku
+trialstep.4.glyphs = _QCB^HK
+trialstep.4.stateno = 1200
+
+[TrialDef, Crouching LK Confirm]
+trial.showforvarvalpairs = 12, 10
+
+trialstep.1.text = Crouching Low Kick
+trialstep.1.glyphs = _D^LK
+trialstep.1.stateno = 430
+
+trialstep.2.text = Crouching Low Kick
+trialstep.2.glyphs = _D^LK
+trialstep.2.stateno = 430
+
+trialstep.3.text = LK Tatsumaki Senpuu Kyaku
+trialstep.3.glyphs = _QCB^LK
+trialstep.3.stateno = 1200
+trialstep.3.animno = 1200
+
+trialstep.4.text = Shoryuken
+trialstep.4.glyphs = _DSF_+^P
+trialstep.4.stateno = 1100
+
+[TrialDef, Crouching Links Into Shinkuu Hadoken] 
+trial.showforvarvalpairs = 12, 0
+
+trialstep.1.text = Crouching Light Kick
+trialstep.1.glyphs = _D^LK
+trialstep.1.stateno = 430
+
+trialstep.2.text = Crouching Light Punch
+trialstep.2.glyphs = _D^LP
+trialstep.2.stateno = 400
+
+trialstep.3.text = Crouching Light Kick
+trialstep.3.glyphs = _D^LK
+trialstep.3.stateno = 430
+
+trialstep.4.text = Shinkuu Hadoken
+trialstep.4.glyphs = _QCF_QCF^P
+trialstep.4.stateno = 7300
+trialstep.4.isproj = true
+
+[TrialDef, Cross-Up Combo into Shoryuken] 
+trialstep.1.text = Jumping Medium Kick
+trialstep.1.glyphs = _AIR^MK
+trialstep.1.stateno = 640
+
+trialstep.2.text = Standing Close Heavy Punch
+trialstep.2.glyphs = ^HP
+trialstep.2.stateno = 221
+
+trialstep.3.text = HeavyShoryuken
+trialstep.3.glyphs = _DSF^HP
+trialstep.3.stateno = 1100
+trialstep.3.animno = 1120
+
+[TrialDef, Cross-Up into Link]
+trial.showforvarvalpairs = 12, 0
+
+trialstep.1.text = Jumping Medium Kick
+trialstep.1.glyphs = _AIR^MK
+trialstep.1.stateno = 640
+
+trialstep.2.text = Crouching Light Punch
+trialstep.2.glyphs = _D^LP
+trialstep.2.stateno = 400
+
+trialstep.3.text = Crouching Heavy Punch
+trialstep.3.glyphs = _D^HP
+trialstep.3.stateno = 420
+
+trialstep.4.text = Heavy Tatsumaki Senpuu Kyaku
+trialstep.4.glyphs = _QCB^HK
+trialstep.4.stateno = 1200
+
+[TrialDef, Cross Up into Close Shin Shoryuken]
+trial.showforvarvalpairs = 12, 0, 20, 0|2|4|5|6
+
+trialstep.1.text = Jumping Medium Kick
+trialstep.1.glyphs = _AIR^MK
+trialstep.1.stateno = 640
+
+trialstep.2.text = Crouching Heavy Punch
+trialstep.2.glyphs = _D^HP
+trialstep.2.stateno = 420
+
+trialstep.3.text = Shin Shoryuken (Close)
+trialstep.3.glyphs = _QCF_QCF^K
+trialstep.3.stateno = 3500, 3501
+trialstep.3.hitcount = 1, 3
+
+[TrialDef, C-Groove Level 2 Shinkuu Hadoken Cancel] 
+trial.showforvarvalpairs = 12, 0, 20, 0
+
+trialstep.1.text = Crouching Medium Kick
+trialstep.1.glyphs = _D^MK
+trialstep.1.stateno = 440
+
+trialstep.2.text = Level 2 Shinkuu Hadoken
+trialstep.2.glyphs = _QCF_QCF^MP
+trialstep.2.stateno = 7300
+trialstep.2.isproj = true
+
+trialstep.3.text = Heavy Tatsumaki Senpuu Kyaku
+trialstep.3.glyphs = _QCB^HK
+trialstep.3.stateno = 1200
+
+[TrialDef, C-Groove Level 2 Shinkuu Tatsumaki Senpuu Kyaku Cancel] 
+trial.showforvarvalpairs = 12, 0, 20, 0
+
+trialstep.1.text = Crouching Medium Kick
+trialstep.1.glyphs = _D^MK
+trialstep.1.stateno = 440
+
+trialstep.2.text = Lvl 2 Shinkuu Tatsumaki Senpuu Kyaku
+trialstep.2.glyphs = _QCB_QCB^MK
+trialstep.2.stateno = 3100
+
+trialstep.3.text = Heavy Shoryuken
+trialstep.3.glyphs = _DSF^HP
+trialstep.3.stateno = 1100
+trialstep.3.animno = 1120
+
+[TrialDef, A-Groove Normal Ryu Custom Combo]
+trial.showforvarvalpairs = 12, 0, 20, 1
+
+trialstep.1.text = Custom Combo Activation
+trialstep.1.glyphs = ^HP_+^HK
+trialstep.1.stateno = 
+trialstep.1.validfortickcount = 180
+
