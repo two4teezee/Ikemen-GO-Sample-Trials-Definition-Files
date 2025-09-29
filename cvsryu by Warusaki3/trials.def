@@ -39,13 +39,6 @@ trialstep.1.glyphs = _QCF_QCF^P
 trialstep.1.stateno = 7300
 trialstep.1.isproj = true
 
-[TrialDef, Shinkuu Tatsumaki Senpukyaku] 
-trial.showforvarvalpairs = 12, 0
-
-trialstep.1.text = Shinkuu Tatsumaki Senpukyaku
-trialstep.1.glyphs = _QCB_QCB^K
-trialstep.1.stateno = 3100
-
 [TrialDef, Shinkuu Hadoken] 
 trial.showforvarvalpairs = 12, 10
 
@@ -125,6 +118,8 @@ trialstep.3.stateno = 7000
 trialstep.3.isproj = true
 
 [TrialDef, Crouching LK Confirm]
+trial.showforvarvalpairs = 12, 0
+
 trialstep.1.text = Crouching Low Kick
 trialstep.1.glyphs = _D^LK
 trialstep.1.stateno = 430
