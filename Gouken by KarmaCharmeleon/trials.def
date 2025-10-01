@@ -1,3 +1,7 @@
+; Trials for Gouken by KarmaCharmeleon
+; Trials file created by two4teezee
+; Compatible with Universal Trials Mode Ikemen GO module v0.99.6 and later
+
 [TrialDef, Gohadoken]
 trialstep.1.text 		= Gohadoken
 trialstep.1.glyphs 	    = _QCF^P
@@ -16,7 +20,7 @@ trialstep.1.stateno 	= 1400
 
 [TrialDef, Hyakki Gosai]
 trialstep.1.text 		= Hyakkishu > Hyakki Gosai
-trialstep.1.glyphs 	    = _DSF^K_-^K^K
+trialstep.1.glyphs 	    = _DSF^K_-^2K
 trialstep.1.stateno 	= 1520
 trialstep.1.isthrow     = true
 
@@ -35,13 +39,13 @@ trialstep.1.stateno 	= 3000
 
 [TrialDef, Close Shin Shoryuken]
 trialstep.1.text 		= Close Shin Shoryuken
-trialstep.1.glyphs 	    = _QCF_QCF^K^K
+trialstep.1.glyphs 	    = _QCF_QCF^2K
 trialstep.1.stateno 	= 3200, 3210 
 trialstep.1.hitcount   = 1, 3
 
 [TrialDef, Denjin Hadoken]
 trialstep.1.text 		= Denjin Hadoken (Full Charge)
-trialstep.1.glyphs 	    = _QCB_QCB^P^P
+trialstep.1.glyphs 	    = _QCB_QCB^2P
 trialstep.1.stateno 	= 3307
 trialstep.1.isproj      = true
 
@@ -105,19 +109,19 @@ trialstep.3.stateno 	= 1400
 
 [TrialDef, Amaoroshi to Close Shin Shoryuken]
 trialstep.1.text 		= Amaoroshi
-trialstep.1.glyphs 	    = _B/_F^K^K
+trialstep.1.glyphs 	    = _B/_F^2K
 trialstep.1.stateno 	= 820
 trialstep.1.isthrow    = true
 trialstep.1.validfortickcount = 70
 
 trialstep.2.text 		= Close Shin Shoryuken
-trialstep.2.glyphs 	    = _QCF_QCF^K^K
+trialstep.2.glyphs 	    = _QCF_QCF^2K
 trialstep.2.stateno 	= 3200, 3210 
 trialstep.2.hitcount   = 1, 3
 
 [TrialDef, Amaoroshi to Air Combo]
 trialstep.1.text 		= Amaoroshi
-trialstep.1.glyphs 	    = _B/_F^K^K
+trialstep.1.glyphs 	    = _B/_F^2K
 trialstep.1.stateno 	= 820
 trialstep.1.isthrow     = true
 trialstep.1.validfortickcount = 70
@@ -187,18 +191,18 @@ trialstep.2.glyphs 	    = ^HP
 trialstep.2.stateno 	= 225
 
 trialstep.3.text 		= EX Senkugoshosha
-trialstep.3.glyphs 	    = _DSF^P^P
+trialstep.3.glyphs 	    = _DSF^2P
 trialstep.3.stateno 	= 1430
 trialstep.3.hitcount   = 2
 
 trialstep.4.text 		= EX Gohadoken
-trialstep.4.glyphs 	    = _QCF^P^P
+trialstep.4.glyphs 	    = _QCF^2P
 trialstep.4.stateno 	= 1037, 1057
 trialstep.4.hitcount   = 1,1
 trialstep.4.isproj      = true, true
 
 trialstep.5.text 		= EX Tatsumaki Gorasen
-trialstep.5.glyphs 	    = _QCB^K^K
+trialstep.5.glyphs 	    = _QCB^2K
 trialstep.5.stateno 	= 1240
 
 [TrialDef, Charged Gohadoken Combo]
@@ -212,18 +216,18 @@ trialstep.2.glyphs 	    = _D^HP
 trialstep.2.stateno 	= 420
 
 trialstep.3.text 		= EX Senkugoshosha
-trialstep.3.glyphs 	    = _DSF^P^P
+trialstep.3.glyphs 	    = _DSF^2P
 trialstep.3.stateno 	= 1430
 trialstep.3.hitcount   = 2
 
 trialstep.4.text 		= EX Gohadoken
-trialstep.4.glyphs 	    = _QCF^P^P
+trialstep.4.glyphs 	    = _QCF^2P
 trialstep.4.stateno 	= 1037, 1057
 trialstep.4.hitcount   = 1,1
 trialstep.4.isproj      = true, true
 
 trialstep.5.text 		= Forbidden Shoryuken (Level 2)
-trialstep.5.glyphs 	    = _QCF_QCF^P^P
+trialstep.5.glyphs 	    = _QCF_QCF^2P
 trialstep.5.stateno 	= 3050
 
 [TrialDef, Custom Combo]
