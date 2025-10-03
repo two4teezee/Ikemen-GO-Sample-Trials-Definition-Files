@@ -54,10 +54,12 @@ id5 --> id6
 %% Normal Ryu
 id0.1[Shinkuu Hadoken]
 id0.2[Shinkuu Tatsumaki Senpuu Kyaku]
-id0.3[Close Shin Shoryuken]
+id0.3.1[Close Shin Shoryuken]
+id0.3.2[Close Shin Shoryuken]
 id0.5.1[3x Crouching LK Confirm]
 id0.5.2[Crouching Links Into Shinkuu Hadoken]
-id0.5.3[Cross Up into Close Shin Shoryuken]
+id0.5.3.1[Cross Up into Close Shin Shoryuken]
+id0.5.3.2[Cross Up into Close Shin Shoryuken]
 id0.6.1[C-Groove Level 2 Shinkuu Hadoken Cancel]
 id0.7.1[A-Groove Normal Ryu Ground Starter Custom]
 id0.7.2[A-Groove Again]
@@ -70,30 +72,35 @@ id0.12.1[EX-Groove Combo]
 %% Links
 id3 -- Ryu --> id0.1
 id0.1 --> id0.2
-id0.2 -- C, P, S, N, K and EX-Groove --> id0.3
+id0.2 -- C, P, N, K and EX-Groove --> id0.3.1
+id0.2 -- S-Groove --> id0.3.2
 
 %% Converge back in
 id0.2 -- A-Groove --> id4
-id0.3 --> id4
+id0.3.1 --> id4
+id0.3.2 --> id4
+id6 -- Ryu --> id0.5.1
 
-id6 -- Normal Ryu --> id0.5.1
 id0.5.1 --> id0.5.2
-id0.5.2 -- C, P, S, N, K and EX-Groove --> id0.5.3
-id0.5.3 -- C-Groove --> id0.6.1
+id0.5.2 -- C, P, N, K and EX-Groove --> id0.5.3.1
+id0.5.2 -- S-Groove --> id0.5.3.2
+id0.5.3.1 -- C-Groove --> id0.6.1
 id0.5.2 -- A-Groove --> id0.7.1
-id0.5.3 -- P-Groove --> id0.8.1
-id0.5.3 -- S-Groove --> id0.9.1
-id0.5.3 -- N-Groove --> id0.10.1
-id0.5.3 -- K-Groove --> id0.11.1
-id0.5.3 -- EX-Groove --> id0.12.1
-id0.7.1 --> iod0.7.2
+id0.5.3.1 -- P-Groove --> id0.8.1
+id0.5.3.2 -- S-Groove --> id0.9.1
+id0.5.3.1 -- N-Groove --> id0.10.1
+id0.5.3.1 -- K-Groove --> id0.11.1
+id0.5.3.1 -- EX-Groove --> id0.12.1
+id0.7.1 --> id0.7.2
 
 %% Evil Ryu
 id10.1[Ashura Senku]
 id10.2[Shinkuu Hadoken]
 id10.3[Metsu Goshoryu]
-id10.4[Denjin Hadoken]
-id10.5[Shun Goku Satsu]
+id10.4.1[Denjin Hadoken]
+id10.4.2[Denjin Hadoken]
+id10.5.1[Shun Goku Satsu]
+id10.5.2[Shun Goku Satsu]
 id10.6[Evil Ryu Target Combo]
 id10.7.1[2x Crouching LK Confirm Tatsu Juggle]
 id10.7.2[Air Tatsu Combo]
@@ -101,14 +108,18 @@ id10.7.2[Air Tatsu Combo]
 id3 -- Evil Ryu --> id10.1
 id10.1 --> id10.2
 id10.2 --> id10.3
-id10.3 -- C, P, S, N, K and EX-Groove --> id10.4
-id10.4 --> id10.5
-id10.5 --> id10.6
+id10.3 -- C, P, N, K and EX-Groove --> id10.4.1
+id10.3 -- S-Groove --> id10.4.2
+id10.4.1 --> id10.5.1
+id10.4.2 --> id10.5.2
+id10.5.1 --> id10.6
+id10.5.2 --> id10.6
 id10.3 -- A-Groove --> id10.6
+
 %% Converge back in
 id10.6 --> id4
-
 id6 -- Evil Ryu --> id10.7.1
+
 id10.7.1 --> id10.7.2
 id10.7.2 -- Evil Ryu, C-Groove --> id10.10.1[C-Groove Level 2 Shinkuu Hadoken Cancel]
 id10.7.2 -- Evil Ryu, A-Groove --> id10.11.1[A-Groove Normal Ryu Ground Starter Custom]
