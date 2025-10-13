@@ -59,7 +59,7 @@ trialstep.1.glyphs = _QCF_QCF^P
 trialstep.1.stateno = 3100
 
 [TrialDef, Denjin Hadoken]
-trial.showforvarvalpairs = 12, 10, 20, 0|2|4|5|6
+trial.showforvarvalpairs = 12, 10, 20, 0|2|4|6
 
 trialstep.1.text = Denjin Hadoken
 trialstep.1.glyphs = _HCB_HCB^K
@@ -67,7 +67,7 @@ trialstep.1.stateno = 7400
 trialstep.1.isproj = true
 
 [TrialDef, Shun Goku Satsu]
-trial.showforvarvalpairs = 12, 10, 20, 0|2|4|5|6
+trial.showforvarvalpairs = 12, 10, 20, 0|2|4|6
 
 trialstep.1.text = Shun Goku Satsu
 trialstep.1.glyphs = ^LP^LP_F^LK^HP
@@ -75,8 +75,8 @@ trialstep.1.stateno = 3301
 trialstep.1.isthrow = true
 
 [TrialDef, Denjin Hadoken]
-trial.showforvarvalpairs = 12, 10, 20, 3
-trial.p1life = 100
+trial.showforvarvalpairs = 12, 10, 20, 3|5
+trial.playerlife = 100
 
 trialstep.1.text = Denjin Hadoken
 trialstep.1.glyphs = _HCB_HCB^K
@@ -84,8 +84,8 @@ trialstep.1.stateno = 7400
 trialstep.1.isproj = true
 
 [TrialDef, Shun Goku Satsu]
-trial.showforvarvalpairs = 12, 10, 20, 3
-trial.p1life = 100
+trial.showforvarvalpairs = 12, 10, 20, 3|5
+trial.playerlife = 100
 
 trialstep.1.text = Shun Goku Satsu
 trialstep.1.glyphs = ^LP^LP_F^LK^HP
@@ -93,7 +93,7 @@ trialstep.1.stateno = 3301
 trialstep.1.isthrow = true
 
 [TrialDef, Close Shin Shoryuken]
-trial.showforvarvalpairs = 12, 0, 20, 0|2|4|5|6
+trial.showforvarvalpairs = 12, 0, 20, 0|2|4|6
 
 trialstep.1.text = Shin Shoryuken (Close)
 trialstep.1.glyphs = _QCF_QCF^K
@@ -101,8 +101,8 @@ trialstep.1.stateno = 3500, 3501
 trialstep.1.hitcount = 1, 3
 
 [TrialDef, Close Shin Shoryuken]
-trial.showforvarvalpairs = 12, 0, 20, 3
-trial.p1life = 100
+trial.showforvarvalpairs = 12, 0, 20, 3|5
+trial.playerlife = 100
 
 trialstep.1.text = Shin Shoryuken (Close)
 trialstep.1.glyphs = _QCF_QCF^K
@@ -238,7 +238,7 @@ trialstep.4.stateno = 7300
 trialstep.4.isproj = true
 
 [TrialDef, Cross Up into Close Shin Shoryuken]
-trial.showforvarvalpairs = 12, 0, 20, 0|2|4|5|6
+trial.showforvarvalpairs = 12, 0, 20, 0|2|4|6
 
 trialstep.1.text = Jumping Medium Kick
 trialstep.1.glyphs = _AIR^MK
@@ -254,8 +254,8 @@ trialstep.3.stateno = 3500, 3501
 trialstep.3.hitcount = 1, 3
 
 [TrialDef, Cross Up into Close Shin Shoryuken]
-trial.showforvarvalpairs = 12, 0, 20, 3
-trial.p1life = 100
+trial.showforvarvalpairs = 12, 0, 20, 3|5
+trial.playerlife = 100
 
 trialstep.1.text = Jumping Medium Kick
 trialstep.1.glyphs = _AIR^MK
@@ -285,6 +285,45 @@ trialstep.2.isproj = true
 trialstep.3.text = Heavy Tatsumaki Senpuu Kyaku
 trialstep.3.glyphs = _QCB^HK
 trialstep.3.stateno = 1200
+
+[TrialDef, C-Groove Level 2 Metsu Goshoryu Cancel] 
+trial.showforvarvalpairs = 12, 10, 20, 0
+
+trialstep.1.text = Jumping Heavy Punch
+trialstep.1.glyphs = _AIR^HP
+trialstep.1.stateno = 620
+
+trialstep.2.text = Close Standing Light Punch
+trialstep.2.glyphs = ^LP
+trialstep.2.stateno = 201
+
+trialstep.3.text = Standing Light Punch
+trialstep.3.glyphs = ^LP
+trialstep.3.stateno = 200
+
+trialstep.4.text = Crouching Light Kick
+trialstep.4.glyphs = _D^LK
+trialstep.4.stateno = 430
+
+trialstep.5.text = Light Tatsumaki Senpuu Kyaku
+trialstep.5.glyphs = _QCB^LK
+trialstep.5.stateno = 1200
+trialstep.5.animno = 1200
+
+trialstep.6.text = Level 2 Metsu Goshoryu
+trialstep.6.glyphs = _QCF_QCF^MP
+trialstep.6.stateno = 3100
+trialstep.6.animno = 3110
+
+trialstep.7.text = Light Shoryuken
+trialstep.7.glyphs = _DSF^LP
+trialstep.7.stateno = 1100
+trialstep.7.animno = 1100
+
+trialstep.8.text = Level 1 Metsu Goshoryu
+trialstep.8.glyphs = _QCF_QCF^LP
+trialstep.8.stateno = 3100
+trialstep.8.animno = 3100
 
 [TrialDef, A-Groove Normal Ryu Ground Starter Custom]
 trial.showforvarvalpairs = 12, 0, 20, 1
@@ -502,3 +541,44 @@ trialstep.6.text = Shin Shoryuken (Close)
 trialstep.6.glyphs = _QCF_QCF^K
 trialstep.6.stateno = 3500, 3501
 trialstep.6.hitcount = 1, 3
+
+[TrialDef, N-Groove Heavy Kick Combo] 
+trial.showforvarvalpairs = 12, 0, 20, 4
+
+trialstep.1.text = Short Hop Heavy Kick
+trialstep.1.glyphs = _AIR^HK
+trialstep.1.stateno = 651
+
+trialstep.2.text = Standing Far Heavy Kick
+trialstep.2.glyphs = ^HK
+trialstep.2.stateno = 259
+
+trialstep.3.text = Shinkuu Hadoken
+trialstep.3.glyphs = _QCF_QCF^P
+trialstep.3.stateno = 7300
+trialstep.3.isproj = true
+
+[TrialDef, N-Groove Heavy Kick Combo] 
+trial.showforvarvalpairs = 12, 10, 20, 4
+
+trialstep.1.text = Jumping Heavy Kick
+trialstep.1.glyphs = _AIR^HK
+trialstep.1.stateno = 650
+
+trialstep.2.text = Crouching Light Kick
+trialstep.2.glyphs = _D^LK
+trialstep.2.stateno = 430
+
+trialstep.3.text = Crouching Light Kick
+trialstep.3.glyphs = _D^LK
+trialstep.3.stateno = 430
+
+trialstep.4.text = Standing Far Heavy Kick
+trialstep.4.glyphs = ^HK
+trialstep.4.stateno = 259
+
+trialstep.5.text = Level 3 Metsu Goshoryu
+trialstep.5.glyphs = _QCF_QCF^P
+trialstep.5.stateno = 3100
+trialstep.5.animno = 3120
+

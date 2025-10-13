@@ -135,7 +135,7 @@ trialstep.4.glyphs 	    = _QCB^LP
 trialstep.4.stateno 	= 1100
 
 [TrialDef, Senpuuken Anti-Air Combo]
-trial.dummymode = jump
+trial.dummymode         = jump
 
 trialstep.1.text 		= Jumping Heavy Punch
 trialstep.1.glyphs 	    = _AIR^HP
@@ -175,6 +175,9 @@ trialstep.6.glyphs 	    = _QCB^P
 trialstep.6.stateno 	= 1100|1150
 
 [TrialDef, Meterless 3/4 Screenn Sen Shippo Corner Punish Combo]
+trial.dummypos          = right-corner
+trial.playerpos         = far
+
 trialstep.1.text 		= Heavy Sen Shippo
 trialstep.1.glyphs 	    = _QCB^HP
 trialstep.1.stateno 	= 1150
@@ -188,6 +191,9 @@ trialstep.3.glyphs 	    = _DSF^HK
 trialstep.3.stateno 	= 1250
 
 [TrialDef, Sen Shippo Corner Punish Combo]
+trial.dummypos          = right-corner
+trial.playerpos         = medium
+
 trialstep.1.text 		= Light Sen Shippo
 trialstep.1.glyphs 	    = _QCB^LP
 trialstep.1.stateno 	= 1100
@@ -205,6 +211,9 @@ trialstep.4.glyphs 	    = _F_HCF^HP
 trialstep.4.stateno 	= 2200
 
 [TrialDef, TOD Corner Combo]
+trial.dummypos          = right-corner
+trial.playerpos         = close
+
 trialstep.1.text 		= Jumping Heavy Kick
 trialstep.1.glyphs 	    = _AIR^HK
 trialstep.1.stateno 	= 635

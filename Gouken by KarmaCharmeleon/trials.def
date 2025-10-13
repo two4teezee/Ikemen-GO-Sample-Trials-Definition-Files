@@ -1,6 +1,6 @@
 ; Trials for Gouken by KarmaCharmeleon
 ; Trials file created by two4teezee
-; Compatible with Universal Trials Mode Ikemen GO module v0.99.6 and later
+; Compatible with Universal Trials Mode Ikemen GO module v0.99.5 and later
 
 [TrialDef, Gohadoken]
 trialstep.1.text 		= Gohadoken
@@ -108,6 +108,8 @@ trialstep.3.glyphs 	    = _DSF^P
 trialstep.3.stateno 	= 1400
 
 [TrialDef, Amaoroshi to Close Shin Shoryuken]
+trial.dummypos = close
+
 trialstep.1.text 		= Amaoroshi
 trialstep.1.glyphs 	    = _B/_F^2K
 trialstep.1.stateno 	= 820
@@ -182,6 +184,8 @@ trialstep.3.glyphs 	    = _QCF_QCF^P
 trialstep.3.stateno 	= 3000
 
 [TrialDef, EX Specials Corner Combo]
+trial.dummypos = right-corner
+
 trialstep.1.text 		= Jumping Hard Punch
 trialstep.1.glyphs 	    = _AIR^HP
 trialstep.1.stateno 	= 620
@@ -206,6 +210,8 @@ trialstep.5.glyphs 	    = _QCB^2K
 trialstep.5.stateno 	= 1240
 
 [TrialDef, Charged Gohadoken Combo]
+trial.dummypos = right-corner
+
 trialstep.1.text 		= Charged Light Gohadoken
 trialstep.1.glyphs 	    = _QCF^LP
 trialstep.1.stateno 	= 1007

@@ -82,8 +82,8 @@ id0.3.2 --> id4
 id6 -- Ryu --> id0.5.1
 
 id0.5.1 --> id0.5.2
-id0.5.2 -- C, P, N, K and EX-Groove --> id0.5.3.1
-id0.5.2 -- S-Groove --> id0.5.3.2
+id0.5.2 -- C, P, N and EX-Groove --> id0.5.3.1
+id0.5.2 -- S, K-Groove --> id0.5.3.2
 id0.5.3.1 -- C-Groove --> id0.6.1
 id0.5.2 -- A-Groove --> id0.7.1
 id0.5.3.1 -- P-Groove --> id0.8.1
@@ -104,12 +104,13 @@ id10.5.2[Shun Goku Satsu]
 id10.6[Evil Ryu Target Combo]
 id10.7.1[2x Crouching LK Confirm Tatsu Juggle]
 id10.7.2[Air Tatsu Combo]
+id10.14.1[N-Groove Heavy Kick Combo]
 
 id3 -- Evil Ryu --> id10.1
 id10.1 --> id10.2
 id10.2 --> id10.3
-id10.3 -- C, P, N, K and EX-Groove --> id10.4.1
-id10.3 -- S-Groove --> id10.4.2
+id10.3 -- C, P, N and EX-Groove --> id10.4.1
+id10.3 -- S, K-Groove --> id10.4.2
 id10.4.1 --> id10.5.1
 id10.4.2 --> id10.5.2
 id10.5.1 --> id10.6
@@ -125,7 +126,7 @@ id10.7.2 -- Evil Ryu, C-Groove --> id10.10.1[C-Groove Level 2 Shinkuu Hadoken Ca
 id10.7.2 -- Evil Ryu, A-Groove --> id10.11.1[A-Groove Normal Ryu Ground Starter Custom]
 id10.7.2 -- Evil Ryu, P-Groove --> id10.12.1[P-Groove Super Cancel Combo]
 id10.7.2 -- Evil Ryu, S-Groove --> id10.13.1[S-Groove Combo]
-id10.7.2 -- Evil Ryu, N-Groove --> id10.14.1[N-Groove Combo]
+id10.7.2 -- Evil Ryu, N-Groove --> id10.14.1
 id10.7.2 -- Evil Ryu, K-Groove --> id10.15.1
 id10.7.2 -- Evil Ryu, EX-Groove --> id10.16.1
 ```
