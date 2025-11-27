@@ -18,7 +18,7 @@ Otherwise, if you want to download these amazing characters and use the trials d
 > [Tung Fu Rue by Ryo2005](https://mugenskyhigh.moo.jp/) | [Video of trials](https://youtu.be/UZulPQ7Xf7A)<br>
 > Inspiration: Ryo2005! Note: requires Trials Mode 0.99.4 or later.
 
-> [Gouken by KarmaCharmeleon](https://www.mediafire.com/folder/f4qxixm5h39cu/Characters) | [Video of trials](https://youtu.be/oTLTCY6_ktE)<br>
+> [Gouken by KarmaCharmeleon](https://www.mediafire.com/folder/f4qxixm5h39cu/Characters) | [Video of trials](https://youtu.be/LqEtLRi0CrE)<br>
 > Inspiration: SSF4 trials mode
 
 > [Guy by Phantom of the Server](https://network.mugenguild.com/pots/) | [Video of trials](https://youtu.be/txoGFs-6hv8) <br>
