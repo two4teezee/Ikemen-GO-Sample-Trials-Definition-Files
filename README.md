@@ -12,10 +12,13 @@ Otherwise, if you want to download these amazing characters and use the trials d
 <!-- > [cvsryu by Warusaki3](https://www.mediafire.com/folder/j8srioxidnmi6/CVS) | [Video of trials]()<br>
 > Inspiration: created for tutorial purposes -->
 
+> [CVSRyu by Warusaki3](https://www.mediafire.com/folder/j8srioxidnmi6/CVS) | [Video of trials]()<br>
+> Inspiration: CVS2 Ryu combos by [jay_ts](https://www.youtube.com/watch?v=JezbJ4gQTFE) and [silentscope88](https://www.youtube.com/watch?v=RZB_rxv3iOw).
+
 > [Tung Fu Rue by Ryo2005](https://mugenskyhigh.moo.jp/) | [Video of trials](https://youtu.be/UZulPQ7Xf7A)<br>
 > Inspiration: Ryo2005! Note: requires Trials Mode 0.99.4 or later.
 
-> [Gouken by KarmaCharmeleon](https://www.mediafire.com/folder/f4qxixm5h39cu/Characters) | [Video of trials](https://youtu.be/oTLTCY6_ktE)<br>
+> [Gouken by KarmaCharmeleon](https://www.mediafire.com/folder/f4qxixm5h39cu/Characters) | [Video of trials](https://youtu.be/LqEtLRi0CrE)<br>
 > Inspiration: SSF4 trials mode
 
 > [Guy by Phantom of the Server](https://network.mugenguild.com/pots/) | [Video of trials](https://youtu.be/txoGFs-6hv8) <br>
