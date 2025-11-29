@@ -56,6 +56,7 @@ id0.1[Shinkuu Hadoken]
 id0.2[Shinkuu Tatsumaki Senpuu Kyaku]
 id0.3.1[Close Shin Shoryuken]
 id0.3.2[Close Shin Shoryuken]
+
 id0.5.1[3x Crouching LK Confirm]
 id0.5.2[Crouching Links Into Shinkuu Hadoken]
 id0.5.3.1[Cross Up into Close Shin Shoryuken]
@@ -64,10 +65,10 @@ id0.6.1[C-Groove Level 2 Shinkuu Hadoken Cancel]
 id0.7.1[A-Groove Normal Ryu Ground Starter Custom]
 id0.7.2[A-Groove Again]
 id0.8.1[P-Groove Super Cancel Combo]
-id0.9.1[S-Groove Combo]
+id0.9.1[S-Groove Dodge Combo]
 id0.10.1[N-Groove Combo]
 id0.11.1[K-Groove Combo]
-id0.12.1[EX-Groove Combo]
+id0.12.1[EX-Groove Medley]
 
 %% Links
 id3 -- Ryu --> id0.1
@@ -120,13 +121,19 @@ id10.3 -- A-Groove --> id10.6
 %% Converge back in
 id10.6 --> id4
 id6 -- Evil Ryu --> id10.7.1
+id10.10.1[C-Groove Level 2 Metsu Goshoryu Cancel]
+id10.10.2[C-Groove Crouching Light Kick Bonanza]
+id10.12.1[P-Groove Denjin Hadoken Combo]
+id10.13.1[S-Groove Dodge Combo]
+id10.16.1[EX-Groove Medley]
 
 id10.7.1 --> id10.7.2
-id10.7.2 -- Evil Ryu, C-Groove --> id10.10.1[C-Groove Level 2 Shinkuu Hadoken Cancel]
-id10.7.2 -- Evil Ryu, A-Groove --> id10.11.1[A-Groove Normal Ryu Ground Starter Custom]
-id10.7.2 -- Evil Ryu, P-Groove --> id10.12.1[P-Groove Super Cancel Combo]
-id10.7.2 -- Evil Ryu, S-Groove --> id10.13.1[S-Groove Combo]
-id10.7.2 -- Evil Ryu, N-Groove --> id10.14.1
-id10.7.2 -- Evil Ryu, K-Groove --> id10.15.1
-id10.7.2 -- Evil Ryu, EX-Groove --> id10.16.1
+id10.7.2 -- C-Groove --> id10.10.1
+id10.10.1 --> id10.10.2
+id10.7.2 -- A-Groove --> id10.11.1[A-Groove Normal Ryu Ground Starter Custom]
+id10.7.2 -- P-Groove --> id10.12.1
+id10.7.2 -- S-Groove --> id10.13.1
+id10.7.2 -- N-Groove --> id10.14.1
+id10.7.2 -- K-Groove --> id10.15.1
+id10.7.2 -- EX-Groove --> id10.16.1
 ```

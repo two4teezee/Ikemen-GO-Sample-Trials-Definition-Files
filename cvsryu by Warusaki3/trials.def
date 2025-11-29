@@ -43,6 +43,13 @@ trialstep.1.glyphs = _QCF_QCF^P
 trialstep.1.stateno = 7300
 trialstep.1.isproj = true
 
+[TrialDef, Shinkuu Tatsumaki Senpuu Kyaku]
+trial.showforvarvalpairs = 12, 0
+
+trialstep.1.text = Shinkuu Tatsumaki Senpuu Kyaku
+trialstep.1.glyphs = _QCB_QCB^K
+trialstep.1.stateno = 3200
+
 [TrialDef, Shinkuu Hadoken]
 trial.showforvarvalpairs = 12, 10
 
@@ -293,127 +300,152 @@ trialstep.1.text = Jumping Heavy Punch
 trialstep.1.glyphs = _AIR^HP
 trialstep.1.stateno = 620
 
-trialstep.2.text = Close Standing Light Punch
+trialstep.2.text = Standing Light Punch
 trialstep.2.glyphs = ^LP
-trialstep.2.stateno = 201
+trialstep.2.stateno = 200|201
 
-trialstep.3.text = Standing Light Punch
-trialstep.3.glyphs = ^LP
-trialstep.3.stateno = 200
+trialstep.3.text = Crouching Light Kick
+trialstep.3.glyphs = _D^LK
+trialstep.3.stateno = 430
 
-trialstep.4.text = Crouching Light Kick
-trialstep.4.glyphs = _D^LK
-trialstep.4.stateno = 430
+trialstep.4.text = Light Tatsumaki Senpuu Kyaku
+trialstep.4.glyphs = _QCB^LK
+trialstep.4.stateno = 1200
+trialstep.4.animno = 1200
 
-trialstep.5.text = Light Tatsumaki Senpuu Kyaku
-trialstep.5.glyphs = _QCB^LK
-trialstep.5.stateno = 1200
-trialstep.5.animno = 1200
+trialstep.5.text = Level 2 Metsu Goshoryu
+trialstep.5.glyphs = _QCF_QCF^MP
+trialstep.5.stateno = 3100
+trialstep.5.animno = 3110
 
-trialstep.6.text = Level 2 Metsu Goshoryu
-trialstep.6.glyphs = _QCF_QCF^MP
-trialstep.6.stateno = 3100
-trialstep.6.animno = 3110
+trialstep.6.text = Light Shoryuken
+trialstep.6.glyphs = _DSF^LP
+trialstep.6.stateno = 1100
+trialstep.6.animno = 1100
 
-trialstep.7.text = Light Shoryuken
-trialstep.7.glyphs = _DSF^LP
-trialstep.7.stateno = 1100
-trialstep.7.animno = 1100
+trialstep.7.text = Level 1 Metsu Goshoryu
+trialstep.7.glyphs = _QCF_QCF^LP
+trialstep.7.stateno = 3100
+trialstep.7.animno = 3100
 
-trialstep.8.text = Level 1 Metsu Goshoryu
-trialstep.8.glyphs = _QCF_QCF^LP
-trialstep.8.stateno = 3100
-trialstep.8.animno = 3100
+[TrialDef, C-Groove Crouching Light Kick Bonanza] 
+trial.showforvarvalpairs = 12, 10, 20, 0
+trial.dummypos = right-corner
 
-[TrialDef, A-Groove Normal Ryu Ground Starter Custom]
-trial.showforvarvalpairs = 12, 0, 20, 1
+trialstep.1.text = Jumping Heavy Kick
+trialstep.1.glyphs = _AIR^HK
+trialstep.1.stateno = 650|651
 
-trialstep.1.text = Custom Combo Activation
-trialstep.1.glyphs = ^HP_+^HK
-trialstep.1.stateno = 870
-trialstep.1.validfortickcount = 180
-trialstep.1.hitcount = 0
+trialstep.2.text = Close Standing Heavy Kick
+trialstep.2.glyphs = ^HK
+trialstep.2.stateno = 251
 
-trialstep.2.text = Crouching Light Kick
-trialstep.2.glyphs = _D^LK
-trialstep.2.stateno = 430
+trialstep.3.text = Level 2 Metsu Goshoryu
+trialstep.3.glyphs = _QCF_QCF^MP
+trialstep.3.stateno = 3100
+trialstep.3.animno = 3110
 
-trialstep.3.text = Crouching Heavy Punch
-trialstep.3.glyphs = _D^HP
-trialstep.3.stateno = 420
+trialstep.4.text = Light Tatsumaki Senpuu Kyaku
+trialstep.4.glyphs = _QCB^LK
+trialstep.4.stateno = 1200
+trialstep.4.animno = 1200
 
-trialstep.4.text = Crouching Heavy Kick
-trialstep.4.glyphs = _D^HK
-trialstep.4.stateno = 450
+trialstep.5.text = Level 1 Metsu Goshoryu
+trialstep.5.glyphs = _QCF_QCF^LP
+trialstep.5.stateno = 3100
+trialstep.5.animno = 3100
 
-trialstep.5.text = Crouching Heavy Punch
-trialstep.5.glyphs = _D^HP
-trialstep.5.stateno = 420
-trialstep.6.validfortickcount = 20
+; [TrialDef, A-Groove Normal Ryu Ground Starter Custom]
+; trial.showforvarvalpairs = 12, 0, 20, 1
+; trial.textbox = Unfortunately this trial cannot be completed because Warusaki3's A-Groove implementation does not allow for Roll Cancelling during the Custom Combo Activation.
 
-trialstep.6.text = Roll
-trialstep.6.glyphs = ^LP_+^LK
-trialstep.6.stateno = 800
-trialstep.6.hitcount = 0
-trialstep.6.validfortickcount = 20
+; trialstep.1.text = Custom Combo Activation
+; trialstep.1.glyphs = ^HP_+^HK
+; trialstep.1.stateno = 870
+; trialstep.1.validfortickcount = 180
+; trialstep.1.hitcount = 0
 
-trialstep.7.text = Crouching Heavy Punch
-trialstep.7.glyphs = _D^HP
-trialstep.7.stateno = 420
+; trialstep.2.text = Crouching Light Kick
+; trialstep.2.glyphs = _D^LK
+; trialstep.2.stateno = 430
 
-trialstep.8.text = Standing Heavy Punch
-trialstep.8.glyphs = ^HP
-trialstep.8.stateno = 221
+; trialstep.3.text = Crouching Heavy Punch
+; trialstep.3.glyphs = _D^HP
+; trialstep.3.stateno = 420
 
-trialstep.9.text = Roll
-trialstep.9.glyphs = ^LP_+^LK
-trialstep.9.stateno = 800
-trialstep.9.hitcount = 0
-trialstep.9.validfortickcount = 20
+; trialstep.4.text = Crouching Heavy Kick
+; trialstep.4.glyphs = _D^HK
+; trialstep.4.stateno = 450
 
-trialstep.10.text = Crouching Heavy Punch
-trialstep.10.glyphs = _D^HP
-trialstep.10.stateno = 420
+; trialstep.5.text = Crouching Heavy Punch
+; trialstep.5.glyphs = _D^HP
+; trialstep.5.stateno = 420
+; trialstep.6.validfortickcount = 20
 
-trialstep.11.text = Standing Heavy Punch
-trialstep.11.glyphs = ^HP
-trialstep.11.stateno = 221
+; trialstep.6.text = Roll
+; trialstep.6.glyphs = ^LP_+^LK
+; trialstep.6.stateno = 800
+; trialstep.6.hitcount = 0
+; trialstep.6.validfortickcount = 20
 
-trialstep.12.text = Roll
-trialstep.12.glyphs = ^LP_+^LK
-trialstep.12.stateno = 800
-trialstep.12.hitcount = 0
-trialstep.12.validfortickcount = 20
+; trialstep.7.text = Crouching Heavy Punch
+; trialstep.7.glyphs = _D^HP
+; trialstep.7.stateno = 420
 
-trialstep.13.text = Crouching Heavy Punch
-trialstep.13.glyphs = _D^HP
-trialstep.13.stateno = 420
+; trialstep.8.text = Standing Heavy Punch
+; trialstep.8.glyphs = ^HP
+; trialstep.8.stateno = 221
 
-trialstep.14.text = Whiff Crouching Light Kick
-trialstep.14.glyphs = _D^LK
-trialstep.14.stateno = 430
-trialstep.14.hitcount = 0
+; trialstep.9.text = Roll
+; trialstep.9.glyphs = ^LP_+^LK
+; trialstep.9.stateno = 800
+; trialstep.9.hitcount = 0
+; trialstep.9.validfortickcount = 20
 
-trialstep.15.text = 3x Jumping Light Punch
-trialstep.15.glyphs = _AIR^LP^LP^LP
-trialstep.15.stateno = 600, 600, 600
+; trialstep.10.text = Crouching Heavy Punch
+; trialstep.10.glyphs = _D^HP
+; trialstep.10.stateno = 420
 
-trialstep.16.text = 2x Jumping Light Punch
-trialstep.16.glyphs = _AIR^LP^LP
-trialstep.16.stateno = 600, 600
+; trialstep.11.text = Standing Heavy Punch
+; trialstep.11.glyphs = ^HP
+; trialstep.11.stateno = 221
 
-trialstep.17.text = Crouching Medium Punch
-trialstep.17.glyphs = _D^MP
-trialstep.17.stateno = 410
+; trialstep.12.text = Roll
+; trialstep.12.glyphs = ^LP_+^LK
+; trialstep.12.stateno = 800
+; trialstep.12.hitcount = 0
+; trialstep.12.validfortickcount = 20
 
-trialstep.18.text = Shinkuu Hadoken
-trialstep.18.glyphs = _QCF_QCF^P
-trialstep.18.stateno = 7300
-trialstep.18.isproj = true
+; trialstep.13.text = Crouching Heavy Punch
+; trialstep.13.glyphs = _D^HP
+; trialstep.13.stateno = 420
+
+; trialstep.14.text = Whiff Crouching Light Kick
+; trialstep.14.glyphs = _D^LK
+; trialstep.14.stateno = 430
+; trialstep.14.hitcount = 0
+
+; trialstep.15.text = 3x Jumping Light Punch
+; trialstep.15.glyphs = _AIR^LP^LP^LP
+; trialstep.15.stateno = 600, 600, 600
+
+; trialstep.16.text = 2x Jumping Light Punch
+; trialstep.16.glyphs = _AIR^LP^LP
+; trialstep.16.stateno = 600, 600
+
+; trialstep.17.text = Crouching Medium Punch
+; trialstep.17.glyphs = _D^MP
+; trialstep.17.stateno = 410
+
+; trialstep.18.text = Shinkuu Hadoken
+; trialstep.18.glyphs = _QCF_QCF^P
+; trialstep.18.stateno = 7300
+; trialstep.18.isproj = true
 
 [TrialDef, A-Groove Normal Ryu Guard Custom]
 trial.showforvarvalpairs = 12, 0, 20, 1
 trial.guardmode = auto
+trial.textbox = Trials mode currently does not support this trial. Will be fixed soon.
 
 trialstep.1.text = Custom Combo Activation
 trialstep.1.glyphs = ^HP_+^HK
@@ -542,6 +574,50 @@ trialstep.6.glyphs = _QCF_QCF^K
 trialstep.6.stateno = 3500, 3501
 trialstep.6.hitcount = 1, 3
 
+[TrialDef, P-Groove Denjin Hadoken Combo] 
+trial.showforvarvalpairs = 12, 10, 20, 2
+
+trialstep.1.text = Jumping Heavy Punch
+trialstep.1.glyphs = _AIR^HP
+trialstep.1.stateno = 620
+
+trialstep.2.text = Standing Close Heavy Punch
+trialstep.2.glyphs = ^HP
+trialstep.2.stateno = 221
+
+trialstep.3.text = Light Tatsumaki Senpuu Kyaku
+trialstep.3.glyphs = _QCB^LK
+trialstep.3.stateno = 1200
+trialstep.3.animno = 1200
+
+trialstep.4.text = Light Shoryuken
+trialstep.4.glyphs = _DSF^LP
+trialstep.4.stateno = 1100
+trialstep.4.animno = 1100
+
+trialstep.5.text = Denjin Hadoken
+trialstep.5.glyphs = _QCB_QCB^P
+trialstep.5.stateno = 7400
+trialstep.5.isproj = true
+
+trialstep.6.text = Jumping Heavy Punch
+trialstep.6.glyphs = _AIR^HP
+trialstep.6.stateno = 620
+
+trialstep.7.text = Standing Close Heavy Punch
+trialstep.7.glyphs = ^HP
+trialstep.7.stateno = 221
+
+trialstep.8.text = Light Tatsumaki Senpuu Kyaku
+trialstep.8.glyphs = _QCB^LK
+trialstep.8.stateno = 1200
+trialstep.8.animno = 1200
+
+trialstep.9.text = Heavy Shoryuken
+trialstep.9.glyphs = _DSF^HP
+trialstep.9.stateno = 1100
+trialstep.9.animno = 1120
+
 [TrialDef, N-Groove Heavy Kick Combo] 
 trial.showforvarvalpairs = 12, 0, 20, 4
 
@@ -582,3 +658,114 @@ trialstep.5.glyphs = _QCF_QCF^P
 trialstep.5.stateno = 3100
 trialstep.5.animno = 3120
 
+[TrialDef, S-Groove Dodge Combo] 
+trial.showforvarvalpairs = 12, 0, 20, 3
+
+trialstep.1.text = Dodge
+trialstep.1.glyphs = ^LP_+^LK
+trialstep.1.stateno = 830
+trialstep.1.hitcount = 0
+trialstep.1.validfortickcount = 60
+
+trialstep.2.text = Dodge Kick
+trialstep.2.glyphs = _!^K
+trialstep.2.stateno = 241
+
+trialstep.3.text = Hadoken
+trialstep.3.glyphs = _QCF^P
+trialstep.3.stateno = 7000
+trialstep.3.isproj = true
+
+[TrialDef, S-Groove Dodge Combo] 
+trial.showforvarvalpairs = 12, 10, 20, 3
+
+trialstep.1.text = Dodge
+trialstep.1.glyphs = ^LP_+^LK
+trialstep.1.stateno = 830
+trialstep.1.hitcount = 0
+trialstep.1.validfortickcount = 60
+
+trialstep.2.text = Dodge Kick
+trialstep.2.glyphs = _!^K
+trialstep.2.stateno = 241
+
+trialstep.3.text = Light Tatsumaki Senpuu Kyaku
+trialstep.3.glyphs = _QCB^LK
+trialstep.3.stateno = 1200
+trialstep.3.animno = 1200
+
+trialstep.4.text = Heavy Shoryuken
+trialstep.4.glyphs = _DSF^HP
+trialstep.4.stateno = 1100
+trialstep.4.animno = 1120
+
+
+[TrialDef, EX-Groove Medley] 
+trial.showforvarvalpairs = 12, 0, 20, 6
+
+trialstep.1.text = Dodge
+trialstep.1.glyphs = ^LP_+^LK
+trialstep.1.stateno = 830
+trialstep.1.hitcount = 0
+trialstep.1.validfortickcount = 60
+
+trialstep.2.text = Dodge Kick
+trialstep.2.glyphs = _!^K
+trialstep.2.stateno = 241
+
+trialstep.3.text = Hadoken
+trialstep.3.glyphs = _QCF^P
+trialstep.3.stateno = 7000
+trialstep.3.isproj = true
+
+trialstep.4.text = Level 2 Shinkuu Hadoken
+trialstep.4.glyphs = _QCF_QCF^MP
+trialstep.4.stateno = 7300
+trialstep.4.isproj = true
+
+trialstep.5.text = Light Tatsumaki Senpuu Kyaku
+trialstep.5.glyphs = _QCB^LK
+trialstep.5.stateno = 1200
+trialstep.5.animno = 1200
+
+trialstep.6.text = Level 1 Shinkuu Tatsumaki Senpuu Kyaku
+trialstep.6.glyphs = _QCB_QCB^LK
+trialstep.6.stateno = 3200
+
+[TrialDef, EX-Groove Medley] 
+trial.showforvarvalpairs = 12, 10, 20, 6
+
+trialstep.1.text = Dodge
+trialstep.1.glyphs = ^LP_+^LK
+trialstep.1.stateno = 830
+trialstep.1.hitcount = 0
+trialstep.1.validfortickcount = 60
+
+trialstep.2.text = Dodge Kick
+trialstep.2.glyphs = _!^K
+trialstep.2.stateno = 241
+
+trialstep.3.text = Hadoken
+trialstep.3.glyphs = _QCF^P
+trialstep.3.stateno = 7000
+trialstep.3.isproj = true
+
+trialstep.4.text = Level 2 Metsu Goshoryu
+trialstep.4.glyphs = _QCF_QCF^MP
+trialstep.4.stateno = 3100
+trialstep.4.animno = 3110
+
+trialstep.5.text = Light Tatsumaki Senpuu Kyaku
+trialstep.5.glyphs = _QCB^LK
+trialstep.5.stateno = 1200
+trialstep.5.animno = 1200
+
+trialstep.6.text = Light Shoryuken
+trialstep.6.glyphs = _DSF^LP
+trialstep.6.stateno = 1100
+trialstep.6.animno = 1100
+
+trialstep.7.text = Level 1 Metsu Goshoryu
+trialstep.7.glyphs = _QCF_QCF^LP
+trialstep.7.stateno = 3100
+trialstep.7.animno = 3100
