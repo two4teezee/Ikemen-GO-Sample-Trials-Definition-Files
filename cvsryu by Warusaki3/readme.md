@@ -2,7 +2,7 @@
 This file contains a Mermaid js diagram that shows the flowchart for the trials definition flie I created for Warusaki3's CVS Ryu. 
 You can use this file to better understand how to create fairly complicated trials for branching characters.
 
-## Using `trials.validforvalvar`
+## Using `trial.showforvarvalpairs`
 Warusaki3's characters use a variable-value pair system to set Grooves, over even alternate characters.
 
 ```ini
@@ -24,12 +24,12 @@ Therefore, for trials that are specific to a Ryu variant or a specific groove, t
 ```ini
 [TrialDef, Denjin Hadoken] 
 trial.showforvarvalpairs = 12, 10, 20, 3 ;display trial only for S-Groove Evil Ryu
-trial.p1life = 100
+trial.playerlife = 100
 
 trialstep.1.text = Denjin Hadoken
 trialstep.1.glyphs = _HCB_HCB^K
-trialstep.1.stateno = 7400
 trialstep.1.isproj = true
+trialstep.1.projid = 3405
 ```
 
 ## Trials Flowchart

@@ -1,13 +1,17 @@
 ; Trials for Tung by Ryo2005
 ; Trials file created by two4teezee
-; Compatible with Universal Trials Mode Ikemen GO module v0.99.4 and later
+; Compatible with Universal Trials Mode Ikemen GO module 1.0 and later
 
 [TrialDef, Kourin Satsu]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Kourin Satsu
 trialstep.1.glyphs 	    = _F_+^LP
 trialstep.1.stateno 	= 300
 
 [TrialDef, Chain Combo 1]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Close Standing Light Kick
 trialstep.1.glyphs 	    = ^LK
 trialstep.1.stateno 	= 225
@@ -19,6 +23,8 @@ trialstep.3.glyphs 	    = ^HP
 trialstep.3.stateno 	= 315
 
 [TrialDef, Chain Combo 2]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Crouching Light Kick
 trialstep.1.glyphs 	    = _D^LK
 trialstep.1.stateno 	= 420
@@ -30,6 +36,8 @@ trialstep.3.glyphs 	    = _D^HP
 trialstep.3.stateno 	= 515
 
 [TrialDef, Chain Combo 3]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Close Standing Light Punch
 trialstep.1.glyphs 	    = ^LP
 trialstep.1.stateno 	= 205
@@ -41,48 +49,68 @@ trialstep.3.glyphs 	    = ^HP
 trialstep.3.stateno 	= 315
 
 [TrialDef, Shou Ha]
+; Tung's Projectile sctrls declare no ID. The documented projid = 0 form for ID-less projectiles
+; does not register here, so these two steps stay on the stateno + isproj form, which does.
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Shou Ha
 trialstep.1.glyphs 	    = ~B_F_+^LP
 trialstep.1.stateno 	= 1000
 trialstep.1.isproj      = true
 
 [TrialDef, Dai Shou Ha]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Dai Shou Ha
 trialstep.1.glyphs 	    = ~B_F_+^HP
 trialstep.1.stateno 	= 1050
 trialstep.1.isproj      = true
 
 [TrialDef, Sen Shippo]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Sen Shippo
 trialstep.1.glyphs 	    = _QCB^P
 trialstep.1.stateno 	= 1100|1150
 
 [TrialDef, Ressen Kyaku]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Ressen Kyaku
 trialstep.1.glyphs 	    = _DSF^K
 trialstep.1.stateno 	= 1200|1250
 
 [TrialDef, Geki Hou]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Geki Hou
 trialstep.1.glyphs 	    = _QCF^Z
 trialstep.1.stateno 	= 1300
 
 [TrialDef, Raimeikyaku]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Raimeikyaku
 trialstep.1.glyphs 	    = _AIR_QCB^HK
 trialstep.1.stateno 	= 1400
 
 [TrialDef, Juujiken]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Juujiken
 trialstep.1.glyphs 	    = _AIR_QCB^HP
 trialstep.1.stateno 	= 1450
 
 [TrialDef, Senpuuken]
+trial.difficulty		= Beginner
+
 trialstep.1.text 		= Senpuuken
 trialstep.1.glyphs 	    = _AIR_QCF^P
 trialstep.1.stateno 	= 1500|1550
 
 [TrialDef, Far Heavy Kick Opener]
+trial.difficulty		= Intermediate
+
 trialstep.1.text 		= Far Standing Heavy Kick
 trialstep.1.glyphs 	    = ^HK
 trialstep.1.stateno 	= 230
@@ -92,6 +120,8 @@ trialstep.2.glyphs 	    = _D^LK^LK^HP
 trialstep.2.stateno 	= 420, 510, 515
 
 [TrialDef, Running Heavy Kick Combo]
+trial.difficulty		= Intermediate
+
 trialstep.1.text 		= Running Heavy Kick
 trialstep.1.glyphs 	    = _XFF^HK
 trialstep.1.stateno 	= 260
@@ -101,6 +131,8 @@ trialstep.2.glyphs 	    = _DSF^HK
 trialstep.2.stateno 	= 1700
 
 [TrialDef, Far Light Punch Confirm Combo]
+trial.difficulty		= Intermediate
+
 trialstep.1.text 		= Far Standing Light Punch
 trialstep.1.glyphs 	    = ^LP
 trialstep.1.stateno 	= 200
@@ -118,6 +150,8 @@ trialstep.4.glyphs 	    = _QCB^LP
 trialstep.4.stateno 	= 1100
 
 [TrialDef, Juujiken Juggle Combo]
+trial.difficulty		= Intermediate
+
 trialstep.1.text 		= Jumping Heavy Punch
 trialstep.1.glyphs 	    = _AIR^HP
 trialstep.1.stateno 	= 615
@@ -135,13 +169,14 @@ trialstep.4.glyphs 	    = _QCB^LP
 trialstep.4.stateno 	= 1100
 
 [TrialDef, Senpuuken Anti-Air Combo]
+trial.difficulty		= Advanced
 trial.dummymode         = jump
 
 trialstep.1.text 		= Jumping Heavy Punch
 trialstep.1.glyphs 	    = _AIR^HP
 trialstep.1.stateno 	= 615
 
-trialstep.2.text 		= LightSenpuuken
+trialstep.2.text 		= Light Senpuuken
 trialstep.2.glyphs 	    = _AIR_QCF^LP
 trialstep.2.stateno 	= 1500
 
@@ -150,6 +185,8 @@ trialstep.3.glyphs 	    = _QCF^Z_HOLD^Z
 trialstep.3.stateno 	= 1300, 1320, 1330
 
 [TrialDef, Far Heavy Kick Mid-Screen Rage Combo]
+trial.difficulty		= Advanced
+
 trialstep.1.text 		= Far Standing Heavy Kick
 trialstep.1.glyphs 	    = ^HK
 trialstep.1.stateno 	= 230
@@ -174,7 +211,8 @@ trialstep.6.text 		= Sen Shippo
 trialstep.6.glyphs 	    = _QCB^P
 trialstep.6.stateno 	= 1100|1150
 
-[TrialDef, Meterless 3/4 Screenn Sen Shippo Corner Punish Combo]
+[TrialDef, Meterless 3/4 Screen Sen Shippo Corner Punish Combo]
+trial.difficulty		= Advanced
 trial.dummypos          = right-corner
 trial.playerpos         = far
 
@@ -191,6 +229,7 @@ trialstep.3.glyphs 	    = _DSF^HK
 trialstep.3.stateno 	= 1250
 
 [TrialDef, Sen Shippo Corner Punish Combo]
+trial.difficulty		= Advanced
 trial.dummypos          = right-corner
 trial.playerpos         = medium
 
@@ -211,6 +250,7 @@ trialstep.4.glyphs 	    = _F_HCF^HP
 trialstep.4.stateno 	= 2200
 
 [TrialDef, TOD Corner Combo]
+trial.difficulty		= Expert
 trial.dummypos          = right-corner
 trial.playerpos         = close
 
@@ -251,7 +291,7 @@ trialstep.9.glyphs 	    = ^HP
 trialstep.9.stateno 	= 215
 
 trialstep.10.text 		= Heavy Ressen Kyaku
-trialstep.10.glyphs 	    = _DSF^HK
+trialstep.10.glyphs 	= _DSF^HK
 trialstep.10.stateno 	= 1250
 
 trialstep.11.text 		= Maximum Dai Geki Hou
