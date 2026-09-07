@@ -1,33 +1,44 @@
 ; Trials for CVS Ryu by Warusaki3
 ; Trials file created by two4teezee
-; Compatible with Universal Trials Mode Ikemen GO module v0.99.6 and later
+; Compatible with Universal Trials Mode Ikemen GO module 1.0 and later
 
 ; var(12): Normal Ryu, Evil Ryu (0, 10)
 ; var(20): Groove (0 = C, 1 = A, 2 = P, 3 = S, 4 = N, 5 = K, 6 = EX)
 
 [TrialDef, Hadoken]
+trial.difficulty = Beginner
+
 trialstep.1.text = Hadoken
 trialstep.1.glyphs = _QCF^P
-trialstep.1.stateno = 7000
-trialstep.1.isproj = true
+; trialstep.1.stateno = 7000
+; trialstep.1.isproj = true
+trialstep.1.projid = 1005
 
 [TrialDef, Shakunetsu Hadoken]
+trial.difficulty = Beginner
+
 trialstep.1.text = Shakunetsu Hadoken
 trialstep.1.glyphs = _HCF^P
-trialstep.1.stateno = 7100
+; trialstep.1.stateno = 7100   ; helper state - projid identifies this projectile
 trialstep.1.isproj = true
+trialstep.1.projid = 1305|1306
 
 [TrialDef, Tatsumaki Senpuu Kyaku]
+trial.difficulty = Beginner
+
 trialstep.1.text = Tatsumaki Senpuu Kyaku
 trialstep.1.glyphs = _QCB^K
 trialstep.1.stateno = 1200
 
 [TrialDef, Shoryuken]
+trial.difficulty = Beginner
+
 trialstep.1.text = Shoryuken
 trialstep.1.glyphs = _DSF^P
 trialstep.1.stateno = 1100
 
 [TrialDef, Ashura Senku]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10
 
 trialstep.1.text = Ashura Senku
@@ -36,14 +47,17 @@ trialstep.1.stateno = 1401
 trialstep.1.hitcount = 0
 
 [TrialDef, Shinkuu Hadoken]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 0
 
 trialstep.1.text = Shinkuu Hadoken
 trialstep.1.glyphs = _QCF_QCF^P
-trialstep.1.stateno = 7300
+; trialstep.1.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.1.isproj = true
+trialstep.1.projid = 3005|3006
 
 [TrialDef, Shinkuu Tatsumaki Senpuu Kyaku]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 0
 
 trialstep.1.text = Shinkuu Tatsumaki Senpuu Kyaku
@@ -51,14 +65,17 @@ trialstep.1.glyphs = _QCB_QCB^K
 trialstep.1.stateno = 3200
 
 [TrialDef, Shinkuu Hadoken]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10
 
 trialstep.1.text = Shinkuu Hadoken
 trialstep.1.glyphs = _HCB_HCB^P
-trialstep.1.stateno = 7300
+; trialstep.1.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.1.isproj = true
+trialstep.1.projid = 3005|3006
 
 [TrialDef, Metsu Goshoryu]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10
 
 trialstep.1.text = Metsu Goshoryu
@@ -66,14 +83,17 @@ trialstep.1.glyphs = _QCF_QCF^P
 trialstep.1.stateno = 3100
 
 [TrialDef, Denjin Hadoken]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10, 20, 0|2|4|6
 
 trialstep.1.text = Denjin Hadoken
 trialstep.1.glyphs = _HCB_HCB^K
-trialstep.1.stateno = 7400
+; trialstep.1.stateno = 7400   ; helper state - projid identifies this projectile
 trialstep.1.isproj = true
+trialstep.1.projid = 3405
 
 [TrialDef, Shun Goku Satsu]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10, 20, 0|2|4|6
 
 trialstep.1.text = Shun Goku Satsu
@@ -82,15 +102,18 @@ trialstep.1.stateno = 3301
 trialstep.1.isthrow = true
 
 [TrialDef, Denjin Hadoken]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10, 20, 3|5
 trial.playerlife = 100
 
 trialstep.1.text = Denjin Hadoken
 trialstep.1.glyphs = _HCB_HCB^K
-trialstep.1.stateno = 7400
+; trialstep.1.stateno = 7400   ; helper state - projid identifies this projectile
 trialstep.1.isproj = true
+trialstep.1.projid = 3405
 
 [TrialDef, Shun Goku Satsu]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10, 20, 3|5
 trial.playerlife = 100
 
@@ -100,6 +123,7 @@ trialstep.1.stateno = 3301
 trialstep.1.isthrow = true
 
 [TrialDef, Close Shin Shoryuken]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 0, 20, 0|2|4|6
 
 trialstep.1.text = Shin Shoryuken (Close)
@@ -108,6 +132,7 @@ trialstep.1.stateno = 3500, 3501
 trialstep.1.hitcount = 1, 3
 
 [TrialDef, Close Shin Shoryuken]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 0, 20, 3|5
 trial.playerlife = 100
 
@@ -117,6 +142,7 @@ trialstep.1.stateno = 3500, 3501
 trialstep.1.hitcount = 1, 3
 
 [TrialDef, Evil Ryu Target Combo]
+trial.difficulty = Intermediate
 trial.showforvarvalpairs = 12, 10
 
 trialstep.1.text = Evil Ryu Target Combo
@@ -124,6 +150,8 @@ trialstep.1.glyphs = ^MP_-^HP
 trialstep.1.stateno = 211, 330
 
 [TrialDef, Crouching Links Into Hadoken]
+trial.difficulty = Advanced
+
 trialstep.1.text = Crouching Light Kick
 trialstep.1.glyphs = _D^LK
 trialstep.1.stateno = 430
@@ -138,10 +166,13 @@ trialstep.3.stateno = 440
 
 trialstep.4.text = Hadoken
 trialstep.4.glyphs = _QCF^P
-trialstep.4.stateno = 7000
+; trialstep.4.stateno = 7000   ; helper state - projid identifies this projectile
 trialstep.4.isproj = true
+trialstep.4.projid = 1005
 
 [TrialDef, Crouching Light to Heavy Punch Link] 
+trial.difficulty = Advanced
+
 trialstep.1.text = Crouching Light Punch
 trialstep.1.glyphs = _D^LP
 trialstep.1.stateno = 400
@@ -152,10 +183,13 @@ trialstep.2.stateno = 420
 
 trialstep.3.text = Hadoken
 trialstep.3.glyphs = _QCF^P
-trialstep.3.stateno = 7000
+; trialstep.3.stateno = 7000   ; helper state - projid identifies this projectile
 trialstep.3.isproj = true
+trialstep.3.projid = 1005
 
 [TrialDef, Cross-Up Combo into Shoryuken] 
+trial.difficulty = Advanced
+
 trialstep.1.text = Jumping Medium Kick
 trialstep.1.glyphs = _AIR^MK
 trialstep.1.stateno = 640
@@ -170,6 +204,7 @@ trialstep.3.stateno = 1100
 trialstep.3.animno = 1120
 
 [TrialDef, 3x Crouching LK Confirm]
+trial.difficulty = Advanced
 trial.showforvarvalpairs = 12, 0
 
 trialstep.1.text = Crouching Low Kick
@@ -189,6 +224,7 @@ trialstep.4.glyphs = _QCB^HK
 trialstep.4.stateno = 1200
 
 [TrialDef, 2x Crouching LK Confirm Tatsu Juggle]
+trial.difficulty = Advanced
 trial.showforvarvalpairs = 12, 10
 
 trialstep.1.text = Crouching Low Kick
@@ -209,6 +245,7 @@ trialstep.4.glyphs = _DSF_+^P
 trialstep.4.stateno = 1100
 
 [TrialDef, Air Tatsu Combo]
+trial.difficulty = Advanced
 trial.showforvarvalpairs = 12, 10
 
 trialstep.1.text = Air Tatsumaki Senpuu Kyaku
@@ -225,6 +262,7 @@ trialstep.3.glyphs = _DSF^P
 trialstep.3.stateno = 1100
 
 [TrialDef, Crouching Links Into Shinkuu Hadoken] 
+trial.difficulty = Advanced
 trial.showforvarvalpairs = 12, 0
 
 trialstep.1.text = Crouching Light Kick
@@ -241,10 +279,12 @@ trialstep.3.stateno = 430
 
 trialstep.4.text = Shinkuu Hadoken
 trialstep.4.glyphs = _QCF_QCF^P
-trialstep.4.stateno = 7300
+; trialstep.4.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.4.isproj = true
+trialstep.4.projid = 3005|3006
 
 [TrialDef, Cross Up into Close Shin Shoryuken]
+trial.difficulty = Advanced
 trial.showforvarvalpairs = 12, 0, 20, 0|2|4|6
 
 trialstep.1.text = Jumping Medium Kick
@@ -261,6 +301,7 @@ trialstep.3.stateno = 3500, 3501
 trialstep.3.hitcount = 1, 3
 
 [TrialDef, Cross Up into Close Shin Shoryuken]
+trial.difficulty = Advanced
 trial.showforvarvalpairs = 12, 0, 20, 3|5
 trial.playerlife = 100
 
@@ -278,6 +319,7 @@ trialstep.3.stateno = 3500, 3501
 trialstep.3.hitcount = 1, 3
 
 [TrialDef, C-Groove Level 2 Shinkuu Hadoken Cancel] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 0
 
 trialstep.1.text = Crouching Medium Kick
@@ -286,14 +328,16 @@ trialstep.1.stateno = 440
 
 trialstep.2.text = Level 2 Shinkuu Hadoken
 trialstep.2.glyphs = _QCF_QCF^MP
-trialstep.2.stateno = 7300
+; trialstep.2.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.2.isproj = true
+trialstep.2.projid = 3005|3006
 
 trialstep.3.text = Heavy Tatsumaki Senpuu Kyaku
 trialstep.3.glyphs = _QCB^HK
 trialstep.3.stateno = 1200
 
 [TrialDef, C-Groove Level 2 Metsu Goshoryu Cancel] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 10, 20, 0
 
 trialstep.1.text = Jumping Heavy Punch
@@ -329,6 +373,7 @@ trialstep.7.stateno = 3100
 trialstep.7.animno = 3100
 
 [TrialDef, C-Groove Crouching Light Kick Bonanza] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 10, 20, 0
 trial.dummypos = right-corner
 
@@ -443,6 +488,7 @@ trialstep.5.animno = 3100
 ; trialstep.18.isproj = true
 
 [TrialDef, A-Groove Normal Ryu Guard Custom]
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 1
 trial.guardmode = auto
 trial.textbox = Trials mode currently does not support this trial. Will be fixed soon.
@@ -522,9 +568,11 @@ trialstep.15.text = Shinkuu Hadoken
 trialstep.15.glyphs = _QCF_QCF^P
 trialstep.15.stateno = 7300
 trialstep.15.isproj = true
+trialstep.15.projid = 3005|3006
 trialstep.15.hitcount = 0
 
 [TrialDef, P-Groove Super Cancel Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 2
 
 trialstep.1.text = Jumping Medium Kick
@@ -542,10 +590,12 @@ trialstep.3.animno = 1100
 
 trialstep.4.text = Shinkuu Hadoken
 trialstep.4.glyphs = _QCF_QCF^P
-trialstep.4.stateno = 7300
+; trialstep.4.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.4.isproj = true
+trialstep.4.projid = 3005|3006
 
 [TrialDef, P-Groove Super Cancel Corner Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 2
 
 trialstep.1.text = Jumping Heavy Punch
@@ -575,6 +625,7 @@ trialstep.6.stateno = 3500, 3501
 trialstep.6.hitcount = 1, 3
 
 [TrialDef, P-Groove Denjin Hadoken Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 10, 20, 2
 
 trialstep.1.text = Jumping Heavy Punch
@@ -597,8 +648,9 @@ trialstep.4.animno = 1100
 
 trialstep.5.text = Denjin Hadoken
 trialstep.5.glyphs = _QCB_QCB^P
-trialstep.5.stateno = 7400
+; trialstep.5.stateno = 7400   ; helper state - projid identifies this projectile
 trialstep.5.isproj = true
+trialstep.5.projid = 3405
 
 trialstep.6.text = Jumping Heavy Punch
 trialstep.6.glyphs = _AIR^HP
@@ -619,6 +671,7 @@ trialstep.9.stateno = 1100
 trialstep.9.animno = 1120
 
 [TrialDef, N-Groove Heavy Kick Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 4
 
 trialstep.1.text = Short Hop Heavy Kick
@@ -627,14 +680,16 @@ trialstep.1.stateno = 651
 
 trialstep.2.text = Standing Far Heavy Kick
 trialstep.2.glyphs = ^HK
-trialstep.2.stateno = 259
+trialstep.2.stateno = 250
 
 trialstep.3.text = Shinkuu Hadoken
 trialstep.3.glyphs = _QCF_QCF^P
-trialstep.3.stateno = 7300
+; trialstep.3.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.3.isproj = true
+trialstep.3.projid = 3005|3006
 
 [TrialDef, N-Groove Heavy Kick Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 10, 20, 4
 
 trialstep.1.text = Jumping Heavy Kick
@@ -651,7 +706,7 @@ trialstep.3.stateno = 430
 
 trialstep.4.text = Standing Far Heavy Kick
 trialstep.4.glyphs = ^HK
-trialstep.4.stateno = 259
+trialstep.4.stateno = 250
 
 trialstep.5.text = Level 3 Metsu Goshoryu
 trialstep.5.glyphs = _QCF_QCF^P
@@ -659,6 +714,7 @@ trialstep.5.stateno = 3100
 trialstep.5.animno = 3120
 
 [TrialDef, S-Groove Dodge Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 3
 
 trialstep.1.text = Dodge
@@ -673,10 +729,12 @@ trialstep.2.stateno = 241
 
 trialstep.3.text = Hadoken
 trialstep.3.glyphs = _QCF^P
-trialstep.3.stateno = 7000
+; trialstep.3.stateno = 7000   ; helper state - projid identifies this projectile
 trialstep.3.isproj = true
+trialstep.3.projid = 1005
 
 [TrialDef, S-Groove Dodge Combo] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 10, 20, 3
 
 trialstep.1.text = Dodge
@@ -701,6 +759,7 @@ trialstep.4.animno = 1120
 
 
 [TrialDef, EX-Groove Medley] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 0, 20, 6
 
 trialstep.1.text = Dodge
@@ -715,13 +774,15 @@ trialstep.2.stateno = 241
 
 trialstep.3.text = Hadoken
 trialstep.3.glyphs = _QCF^P
-trialstep.3.stateno = 7000
+; trialstep.3.stateno = 7000   ; helper state - projid identifies this projectile
 trialstep.3.isproj = true
+trialstep.3.projid = 1005
 
 trialstep.4.text = Level 2 Shinkuu Hadoken
 trialstep.4.glyphs = _QCF_QCF^MP
-trialstep.4.stateno = 7300
+; trialstep.4.stateno = 7300   ; helper state - projid identifies this projectile
 trialstep.4.isproj = true
+trialstep.4.projid = 3005|3006
 
 trialstep.5.text = Light Tatsumaki Senpuu Kyaku
 trialstep.5.glyphs = _QCB^LK
@@ -733,6 +794,7 @@ trialstep.6.glyphs = _QCB_QCB^LK
 trialstep.6.stateno = 3200
 
 [TrialDef, EX-Groove Medley] 
+trial.difficulty = Expert
 trial.showforvarvalpairs = 12, 10, 20, 6
 
 trialstep.1.text = Dodge
@@ -747,8 +809,9 @@ trialstep.2.stateno = 241
 
 trialstep.3.text = Hadoken
 trialstep.3.glyphs = _QCF^P
-trialstep.3.stateno = 7000
+; trialstep.3.stateno = 7000   ; helper state - projid identifies this projectile
 trialstep.3.isproj = true
+trialstep.3.projid = 1005
 
 trialstep.4.text = Level 2 Metsu Goshoryu
 trialstep.4.glyphs = _QCF_QCF^MP

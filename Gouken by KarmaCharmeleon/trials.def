@@ -1,30 +1,39 @@
 ; Trials for Gouken by KarmaCharmeleon
 ; Trials file created by two4teezee
-; Compatible with Universal Trials Mode Ikemen GO module v0.99.5 and later
+; Compatible with Universal Trials Mode Ikemen GO module 1.0 and later
 
 [TrialDef, Gohadoken]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Gohadoken
 trialstep.1.glyphs 	    = _QCF^P
 trialstep.1.stateno 	= 1007
-trialstep.1.isproj      = true
+trialstep.1.ishelper    = true
 
 [TrialDef, Tatsumaki Gorasen]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Tatsumaki Gorasen
 trialstep.1.glyphs 	    = _QCB^K
 trialstep.1.stateno 	= 1210
 
 [TrialDef, Senkugoshosha]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Senkugoshosha
 trialstep.1.glyphs 	    = _DSF^P
 trialstep.1.stateno 	= 1400
 
 [TrialDef, Hyakki Gosai]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Hyakkishu > Hyakki Gosai
 trialstep.1.glyphs 	    = _DSF^K_-^2K
 trialstep.1.stateno 	= 1520
 trialstep.1.isthrow     = true
 
 [TrialDef, Kongoshin (Low)]
+trial.difficulty        = Beginner
 trial.dummybuttonjam    = b
 trial.dummymode         = crouch
 
@@ -33,28 +42,38 @@ trialstep.1.glyphs 	    = _DSB^LP
 trialstep.1.stateno 	= 1610
 
 [TrialDef, Forbidden Shoryuken]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Forbidden Shoryuken
 trialstep.1.glyphs 	    = _QCF_QCF^P
 trialstep.1.stateno 	= 3000
 
 [TrialDef, Shinku Tatsumaki Senpukyaku]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Shinku Tatsumaki Senpukyaku
 trialstep.1.glyphs 	    = _QCB_QCB^K
 trialstep.1.stateno 	= 3100
 
 [TrialDef, Close Shin Shoryuken]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Close Shin Shoryuken
 trialstep.1.glyphs 	    = _QCF_QCF^2K
 trialstep.1.stateno 	= 3200, 3210 
 trialstep.1.hitcount   = 1, 3
 
 [TrialDef, Denjin Hadoken]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Denjin Hadoken (Full Charge)
 trialstep.1.glyphs 	    = _QCB_QCB^2P
 trialstep.1.stateno 	= 3307
-trialstep.1.isproj      = true
+trialstep.1.ishelper    = true
 
 [TrialDef, Medium to Light Punch Chain]
+trial.difficulty        = Beginner
+
 trialstep.1.text 		= Standing Medium Punch
 trialstep.1.glyphs 	    = ^MP
 trialstep.1.stateno 	= 215
@@ -64,6 +83,8 @@ trialstep.2.glyphs 	    = _D^LP
 trialstep.2.stateno 	= 400
 
 [TrialDef, Medium Punch Link]
+trial.difficulty        = Intermediate
+
 trialstep.1.text 		= Standing Medium Punch
 trialstep.1.glyphs 	    = ^MP
 trialstep.1.stateno 	= 215
@@ -73,6 +94,8 @@ trialstep.2.glyphs 	    = _D^MP
 trialstep.2.stateno 	= 410
 
 [TrialDef, Hard Punch to Super Cancel]
+trial.difficulty        = Intermediate
+
 trialstep.1.text 		= Close Standing Hard Punch
 trialstep.1.glyphs 	    = ^HP
 trialstep.1.stateno 	= 225
@@ -87,6 +110,8 @@ trialstep.3.glyphs 	    = _QCB_QCB^K
 trialstep.3.stateno 	= 3100
 
 [TrialDef, Dive Kick Combo]
+trial.difficulty        = Intermediate
+
 trialstep.1.text 		= Tenmakujinkyaku
 trialstep.1.glyphs 	    = _AIR_D^MK
 trialstep.1.stateno 	= 648
@@ -100,6 +125,8 @@ trialstep.3.glyphs 	    = _QCB^K
 trialstep.3.stateno 	= 1210
 
 [TrialDef, Hyakkishu Combo]
+trial.difficulty        = Intermediate
+
 trialstep.1.text 		= Hyakkishu > Hyakki Gojin
 trialstep.1.glyphs 	    = _DSF^K_-^K
 trialstep.1.stateno 	= 1510
@@ -113,6 +140,7 @@ trialstep.3.glyphs 	    = _DSF^P
 trialstep.3.stateno 	= 1400
 
 [TrialDef, Amaoroshi to Close Shin Shoryuken]
+trial.difficulty        = Intermediate
 trial.dummypos = close
 
 trialstep.1.text 		= Amaoroshi
@@ -127,6 +155,8 @@ trialstep.2.stateno 	= 3200, 3210
 trialstep.2.hitcount   = 1, 3
 
 [TrialDef, Amaoroshi to Super Cancel Combo]
+trial.difficulty        = Advanced
+
 trialstep.1.text 		= Amaoroshi
 trialstep.1.glyphs 	    = _B/_F^2K
 trialstep.1.stateno 	= 820
@@ -148,6 +178,8 @@ trialstep.4.glyphs 	    = _QCB_QCB^K
 trialstep.4.stateno 	= 3100
 
 [TrialDef, EX Senkugoshosha to Tatsumaki Gorasen]
+trial.difficulty        = Intermediate
+
 trialstep.1.text 		= Crouching Hard Punch
 trialstep.1.glyphs 	    = _D^HP
 trialstep.1.stateno 	= 420
@@ -164,6 +196,7 @@ trialstep.3.animno      = 1212
 trialstep.3.hitcount    = 5
 
 [TrialDef, Kongoshin Super Cancel]
+trial.difficulty        = Intermediate
 trial.dummybuttonjam    = y
 
 trialstep.1.text 		= Kongoshin (Mid)
@@ -175,13 +208,14 @@ trialstep.2.glyphs 	    = _QCF_QCF^P
 trialstep.2.stateno 	= 3000
 
 [TrialDef, Gohadoken Anti-Air Combo]
+trial.difficulty        = Advanced
 trial.dummymode         = jump
 
 trialstep.1.text 		= Charged Hard Gohadoken
 trialstep.1.glyphs 	    = _QCF^HP
 trialstep.1.stateno 	= 1007, 1008
-trialstep.1.isproj      = true, true
-trialstep.1.hitcount   = 1, 1
+trialstep.1.ishelper    = true, true
+trialstep.1.hitcount   = 1, 0
 
 trialstep.2.text 		= Senkugoshosha
 trialstep.2.glyphs 	    = _DSF^P
@@ -192,13 +226,14 @@ trialstep.3.glyphs 	    = _QCF_QCF^P
 trialstep.3.stateno 	= 3000
 
 [TrialDef, EX Specials Corner Combo]
+trial.difficulty        = Advanced
 trial.dummypos = right-corner
 
 trialstep.1.text 		= Jumping Hard Punch
 trialstep.1.glyphs 	    = _AIR^HP
 trialstep.1.stateno 	= 620
 
-trialstep.2.text 		= Close Standing Mediun Punch
+trialstep.2.text 		= Close Standing Medium Punch
 trialstep.2.glyphs 	    = ^MP
 trialstep.2.stateno 	= 215
 
@@ -215,19 +250,20 @@ trialstep.5.text 		= EX Gohadoken
 trialstep.5.glyphs 	    = _QCF^2P
 trialstep.5.stateno 	= 1037, 1057
 trialstep.5.hitcount   = 1,1
-trialstep.5.isproj      = true, true
+trialstep.5.ishelper    = true, true
 
 trialstep.6.text 		= EX Tatsumaki Gorasen
 trialstep.6.glyphs 	    = _QCB^2K
 trialstep.6.stateno 	= 1240
 
 [TrialDef, Charged Gohadoken Combo]
+trial.difficulty        = Advanced
 trial.dummypos = right-corner
 
 trialstep.1.text 		= Charged Light Gohadoken
 trialstep.1.glyphs 	    = _QCF^LP
 trialstep.1.stateno 	= 1007
-trialstep.1.isproj      = true
+trialstep.1.ishelper    = true
 
 trialstep.2.text 		= Crouching Hard Punch
 trialstep.2.glyphs 	    = _D^HP
@@ -242,13 +278,14 @@ trialstep.4.text 		= EX Gohadoken
 trialstep.4.glyphs 	    = _QCF^2P
 trialstep.4.stateno 	= 1037, 1057
 trialstep.4.hitcount   = 1,1
-trialstep.4.isproj      = true, true
+trialstep.4.ishelper    = true, true
 
 trialstep.5.text 		= Forbidden Shoryuken (Level 2)
 trialstep.5.glyphs 	    = _QCF_QCF^2P
 trialstep.5.stateno 	= 3050
 
 [TrialDef, Shin Shoryuken Corner Combo]
+trial.difficulty        = Advanced
 trial.dummypos = right-corner
 
 trialstep.1.text 		= Jumping Hard Kick
@@ -278,6 +315,8 @@ trialstep.6.stateno 	= 3200, 3210
 trialstep.6.hitcount   = 1, 3
 
 [TrialDef, Custom Combo]
+trial.difficulty        = Advanced
+
 trialstep.1.text 		= Custom Combo Activation
 trialstep.1.glyphs 	    = ^HP_+^HK
 trialstep.1.stateno 	= 900
@@ -305,7 +344,8 @@ trialstep.6.glyphs 	    = _QCB^K
 trialstep.6.stateno 	= 1210
 
 [TrialDef, Gohadoken Corner Combo]
-trial.dummypos = right-corner
+trial.difficulty        = Expert
+trial.dummypos          = right-corner
 
 trialstep.1.text 		= Jumping Hard Kick
 trialstep.1.glyphs 	    = _AIR^HK
@@ -318,7 +358,7 @@ trialstep.2.stateno 	= 440
 trialstep.3.text 		= Gohadoken
 trialstep.3.glyphs 	    = _QCF^P
 trialstep.3.stateno 	= 1007
-trialstep.3.isproj      = true
+trialstep.3.ishelper    = true
 
 trialstep.4.text 		= Crouching Heavy Punch
 trialstep.4.glyphs 	    = _D^HP
@@ -332,7 +372,7 @@ trialstep.6.text 		= EX Gohadoken
 trialstep.6.glyphs 	    = _QCF^2P
 trialstep.6.stateno 	= 1037, 1057
 trialstep.6.hitcount    = 1,1
-trialstep.6.isproj      = true, true
+trialstep.6.ishelper    = true, true
 
 trialstep.7.text 		= Tatsumaki Gorasen (One Hit)
 trialstep.7.glyphs 	    = _QCB^K
