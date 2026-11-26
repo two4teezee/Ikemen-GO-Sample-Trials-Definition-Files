@@ -1,74 +1,72 @@
 ; KFMZ TRIALS LIST ---------------------------
 ; Sample trials definition file for kfmZ by Elecbyte.
-; Aligned with Ikemen GO Trials Mode 1.0 (https://github.com/two4teezee/Ikemen-GO-Trials-Mode).
-; Trials are presented to the player in the order they are listed here.
-; Add "trials = trials.def" under [Files] in kfmZ.def for the engine to pick this file up.
+; Compatible with Ikemen GO Dojo Module 2.0 and later
 
 [TrialDef, KFM's First Trial]			;Mandatory - [TrialDef] is required, the trial title after the comma is optional.
 
-trial.difficulty = Beginner				;Optional - Beginner, Intermediate, Advanced or Expert (case-insensitive). Files the trial behind that filter in Trial Select. Trials with no difficulty are collected under "Other".
-trial.dummymode = stand					;Optional - stand (default), crouch, jump, wjump.
-trial.guardmode = none					;Optional - none (default), auto.
-trial.dummybuttonjam = none				;Optional - none (default), a, b, c, x, y, z, start, d, w.
-; trial.dummylife =						;Optional - (integer). Sets the dummy's life total.
-; trial.playerlife =					;Optional - (integer). Sets the player's life total. Useful for desperation moves.
-; trial.dummypos =						;Optional - left-corner, right-corner, far, medium, close. Defaults to center stage.
-; trial.playerpos =					;Optional - left-corner, right-corner, far, medium, close. Defaults to center stage.
-; trial.showforvarvalpairs =			;Optional - comma-separated var,val pairs. Trial only displays when all pairs return true. Values can be OR'd with |.
-; trial.textbox = Good luck!			;Optional - (multilingual string). Drawn in the textbox defined under [Trials Mode] in system.def.
+difficulty = Beginner				;Optional - Beginner, Intermediate, Advanced or Expert (case-insensitive). Files the trial behind that filter in Trial Select. Trials with no difficulty are collected under "Other".
+dummymode = stand					;Optional - stand (default), crouch, jump, wjump.
+guardmode = none					;Optional - none (default), auto.
+dummybuttonjam = none				;Optional - none (default), a, b, c, x, y, z, start, d, w.
+; dummylife =						;Optional - (integer). Sets the dummy's life total.
+; playerlife =					;Optional - (integer). Sets the player's life total. Useful for desperation moves.
+; dummypos =						;Optional - left-corner, right-corner, far, medium, close. Defaults to center stage.
+; playerpos =					;Optional - left-corner, right-corner, far, medium, close. Defaults to center stage.
+; showforvarvalpairs =			;Optional - comma-separated var,val pairs. Trial only displays when all pairs return true. Values can be OR'd with |.
+; textbox = Good luck!			;Optional - (multilingual string). Drawn in the textbox defined under [Trials Mode] in system.def.
 
-trialstep.1.text = Strong Kung Fu Palm	;Optional - (multilingual string). Name for the trial step (only displayed in vertical trials layout). I recommend always defining this.
-trialstep.1.glyphs = _QDF^Y				;Optional - (string, see Glyph docs). Same syntax as movelist glyphs. Displayed in vertical and horizontal trials layouts. I recommend always defining this.
-trialstep.1.stateno = 1010				;Mandatory - (integers; comma-separated for condensed steps, | separated for alternatives). State checked to pass the step, whether it belongs to the character, a helper, or is the state a projectile was fired from.
+step.1.text = Strong Kung Fu Palm	;Optional - (multilingual string). Name for the trial step (only displayed in vertical trials layout). I recommend always defining this.
+step.1.glyphs = _QDF^Y				;Optional - (string, see Glyph docs). Same syntax as movelist glyphs. Displayed in vertical and horizontal trials layouts. I recommend always defining this.
+step.1.stateno = 1010				;Mandatory - (integers; comma-separated for condensed steps, | separated for alternatives). State checked to pass the step, whether it belongs to the character, a helper, or is the state a projectile was fired from.
 
-; trialstep.1.animno =					;Optional - (integers). Anim checked to pass the step. Useful in certain cases.
-; trialstep.1.projid =					;Optional - (integers). ProjID given by the character's Projectile sctrl. Passes on the frame that projectile hits. Identifies the step as a projectile step on its own.
-; trialstep.1.hitcount =				;Optional - (integers), defaults to 1. Hits required before moving on. Use 0 for moves that do not hit.
-; trialstep.1.isthrow =					;Optional - (true/false), defaults to false. Set true when the step is a throw.
-; trialstep.1.iscounterhit =			;Optional - (true/false), defaults to false. Set true when the step must counter hit. Typically does not work with helpers or projectiles.
-; trialstep.1.ishelper =				;Optional - (true/false), defaults to false. Set true when the step is a hit from a helper.
-; trialstep.1.isproj =					;Optional - (true/false), defaults to false. Set true when the step is a hit from a projectile. Not needed alongside projid.
-; trialstep.1.validforvarvalpairs =		;Optional - comma-separated var,val pairs. Sister to showforvarvalpairs; gates the step itself (e.g. a custom combo state).
-; trialstep.1.validfortickcount =		;Optional - (integers). Pauses trial checking until the next hit is registered, for the specified tickcount.
+; step.1.animno =					;Optional - (integers). Anim checked to pass the step. Useful in certain cases.
+; step.1.projid =					;Optional - (integers). ProjID given by the character's Projectile sctrl. Passes on the frame that projectile hits. Identifies the step as a projectile step on its own.
+; step.1.hitcount =				;Optional - (integers), defaults to 1. Hits required before moving on. Use 0 for moves that do not hit.
+; step.1.isthrow =					;Optional - (true/false), defaults to false. Set true when the step is a throw.
+; step.1.iscounterhit =			;Optional - (true/false), defaults to false. Set true when the step must counter hit. Typically does not work with helpers or projectiles.
+; step.1.ishelper =				;Optional - (true/false), defaults to false. Set true when the step is a hit from a helper.
+; step.1.isproj =					;Optional - (true/false), defaults to false. Set true when the step is a hit from a projectile. Not needed alongside projid.
+; step.1.validforvarvalpairs =		;Optional - comma-separated var,val pairs. Sister to showforvarvalpairs; gates the step itself (e.g. a custom combo state).
+; step.1.validfortickcount =		;Optional - (integers). Pauses trial checking until the next hit is registered, for the specified tickcount.
 
 ;---------------------------------------------
 
 [TrialDef, Kung Fu Throw]
-trial.difficulty = Beginner
+difficulty = Beginner
 
-trialstep.1.text = Kung Fu Throw
-trialstep.1.glyphs = [_B/_F]_+^Y
-trialstep.1.stateno = 810
-trialstep.1.isthrow = true
+step.1.text = Kung Fu Throw
+step.1.glyphs = [_B/_F]_+^Y
+step.1.stateno = 810
+step.1.isthrow = true
 
 ;---------------------------------------------
 
 [TrialDef, Kung Fu Taunt]
 ; Trial text supports language-suffixed keys. The mode falls back to the .en key
 ; (or the unsuffixed key) when the selected language cannot be matched.
-trial.difficulty = Beginner
+difficulty = Beginner
 
-trial.textbox.en = This is an English textbox!
-trial.textbox.es = Este es un cuadro de texto en espanol.
+textbox.en = This is an English textbox!
+textbox.es = Este es un cuadro de texto en espanol.
 
-trialstep.1.text.en = Kung Fu Taunt
-trialstep.1.text.es = Kung Fu Pulla
-trialstep.1.glyphs = ^S
-trialstep.1.stateno = 195
-trialstep.1.hitcount = 0
+step.1.text.en = Kung Fu Taunt
+step.1.text.es = Kung Fu Pulla
+step.1.glyphs = ^S
+step.1.stateno = 195
+step.1.hitcount = 0
 
 ;---------------------------------------------
 
 [TrialDef, Standing Punch Chain]
-trial.difficulty = Beginner
+difficulty = Beginner
 
-trialstep.1.text = Standing Light Punch
-trialstep.1.glyphs = ^X
-trialstep.1.stateno = 200
+step.1.text = Standing Light Punch
+step.1.glyphs = ^X
+step.1.stateno = 200
 
-trialstep.2.text = Standing Strong Punch
-trialstep.2.glyphs = ^Y
-trialstep.2.stateno = 210
+step.2.text = Standing Strong Punch
+step.2.glyphs = ^Y
+step.2.stateno = 210
 
 ;---------------------------------------------
 
@@ -79,82 +77,82 @@ trialstep.2.stateno = 210
 ; Condensed steps can be very practical for multi-state moves where the trial step should only clear if all of the states are met, without having to create multiple trial steps.
 ; The parameters that accept comma separated values are: stateno, animno, projid, hitcount, isthrow, iscounterhit, ishelper, isproj.
 ; If one parameter on the trial step is defined using comma separated values, all parameters on that trial step must be defined similarly.
-trial.difficulty = Beginner
+difficulty = Beginner
 
-trialstep.1.text = Standing Light to Strong Punch Chain
-trialstep.1.glyphs = ^X_-^Y
-trialstep.1.stateno = 200, 210
-trialstep.1.hitcount = 1, 1
+step.1.text = Standing Light to Strong Punch Chain
+step.1.glyphs = ^X_-^Y
+step.1.stateno = 200, 210
+step.1.hitcount = 1, 1
 
 ;---------------------------------------------
 
 [TrialDef, KFM Kung Fu Palm]
 ; In this trial, we use the "or" operand, specified by using the | character, to let the user specify multiple different stateno or animno for which the trialstep or microstep is valid.
-trial.difficulty = Beginner
+difficulty = Beginner
 
-trialstep.1.text = Kung Fu Palm
-trialstep.1.glyphs = _QDF^P
-trialstep.1.stateno = 1000|1010
+step.1.text = Kung Fu Palm
+step.1.glyphs = _QDF^P
+step.1.stateno = 1000|1010
 
 ;---------------------------------------------
 
 [TrialDef, Kung Fu Juggle Combo]
 ; In this trial, the position for the dummy on the stage is set. The player can reset positioning by hitting d + w.
-trial.difficulty = Intermediate
-trial.dummypos = right-corner
+difficulty = Intermediate
+dummypos = right-corner
 
-trialstep.1.text = Kung Fu Knee and Extra Kick
-trialstep.1.glyphs = _F_F_+^K_.^K
-trialstep.1.stateno = 1060, 1055
+step.1.text = Kung Fu Knee and Extra Kick
+step.1.glyphs = _F_F_+^K_.^K
+step.1.stateno = 1060, 1055
 
-trialstep.2.text = Crouching Jab
-trialstep.2.glyphs = _D_+^X
-trialstep.2.stateno = 400
+step.2.text = Crouching Jab
+step.2.glyphs = _D_+^X
+step.2.stateno = 400
 
-trialstep.3.text = Weak Kung Fu Palm
-trialstep.3.glyphs = _QDF_+^X
-trialstep.3.stateno = 1000
+step.3.text = Weak Kung Fu Palm
+step.3.glyphs = _QDF_+^X
+step.3.stateno = 1000
 
 ;---------------------------------------------
 
 [TrialDef, Kung Fu Fist Four Piece]
-trial.difficulty = Intermediate
+difficulty = Intermediate
 
-trialstep.1.text = Jumping Strong Punch
-trialstep.1.glyphs = _AIR^Y
-trialstep.1.stateno = 610
+step.1.text = Jumping Strong Punch
+step.1.glyphs = _AIR^Y
+step.1.stateno = 610
 
-trialstep.2.text = Standing Light Punch
-trialstep.2.glyphs = ^X
-trialstep.2.stateno = 200
+step.2.text = Standing Light Punch
+step.2.glyphs = ^X
+step.2.stateno = 200
 
-trialstep.3.text = Standing Strong Punch
-trialstep.3.glyphs = ^Y
-trialstep.3.stateno = 210
+step.3.text = Standing Strong Punch
+step.3.glyphs = ^Y
+step.3.stateno = 210
 
-trialstep.4.text = Strong Kung Fu Palm
-trialstep.4.glyphs = _QDF^Y
-trialstep.4.stateno = 1010
+step.4.text = Strong Kung Fu Palm
+step.4.glyphs = _QDF^Y
+step.4.stateno = 1010
 
 ;---------------------------------------------
 
 [TrialDef, Kung Fu Super Cancel]
-trial.difficulty = Advanced
+difficulty = Advanced
 
-trialstep.1.text = Jumping Strong Kick
-trialstep.1.glyphs = _AIR^B
-trialstep.1.stateno = 640
+step.1.text = Jumping Strong Kick
+step.1.glyphs = _AIR^B
+step.1.stateno = 640
 
-trialstep.2.text = Standing Kick Chain
-trialstep.2.glyphs = ^A_-^B
-trialstep.2.stateno = 230, 240
-trialstep.2.hitcount = 1, 1
+step.2.text = Standing Kick Chain
+step.2.glyphs = ^A_-^B
+step.2.stateno = 230, 240
+step.2.hitcount = 1, 1
 
-trialstep.3.text = Fast Kung Fu Zankou
-trialstep.3.glyphs = _QDF^A_+^B
-trialstep.3.stateno = 1420
+step.3.text = Fast Kung Fu Zankou
+step.3.glyphs = _QDF^A_+^B
+step.3.stateno = 1420
 
-trialstep.4.text = Triple Kung Fu Palm
-trialstep.4.glyphs = _QDF_QDF^P
-trialstep.4.stateno = 3000
-trialstep.4.hitcount = 3
+step.4.text = Triple Kung Fu Palm
+step.4.glyphs = _QDF_QDF^P
+step.4.stateno = 3000
+step.4.hitcount = 3
